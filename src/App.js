@@ -1,6 +1,7 @@
 import { Route, Routes } from "react-router-dom";
 import Layout from "./Components/Layout/Layout";
 import Home from "./Components/Pages/Home/Home";
+import OurApi from "./Components/Pages/OurApi/OurApi";
 // import ComingSoon from "./Components/Pages/ComingSoon/ComingSoon";
 // import DocumentationA from "./Components/Pages/DocumentationA/DocumentationA";
 // import VideoTutorial from "./Components/Pages/VideoTutorial/VideoTutorial";
@@ -18,6 +19,7 @@ function App() {
         <Route path='/video-tutorial' element={<VideoTutorial/>} />
         <Route path='/smc-apis' element={<SMCApis/>} />
         <Route path='/comingSoon' element={<ComingSoon/>} /> */}
+        <Route path="/outapi" element={<OurApi/>}/>
       </Route>
     </Routes>
   );

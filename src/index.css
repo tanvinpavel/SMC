@@ -1842,3 +1842,147 @@ body.loaded .wrapper {
   line-height: 35px;
   font-weight: 400;
 }
+
+/* out api */
+.cardapi img{
+  max-width: 40px;
+  width: 100%;
+  height: 40px;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+.cardapi{
+  height: 255px;
+  font-weight: 700px;
+  font-size: 16px;
+}
+.api-card-body{
+  padding-left: 1rem;
+  padding-top: 0;
+}
+.api-card-title{
+  margin-top: 0;
+}
+.api-card-text{
+  font-weight: 40px;
+  font-size: 12px;
+  line-height: 1.5;
+}
+.api-btn{
+  margin-left: 0px;
+}
+.api-version{
+  font-size: 12px;
+  line-height: 0px;
+}
+
+@media only screen and (max-width: 1120px) {
+  .api-btn{
+    width: 127px;
+  }
+}
+@media only screen and (max-width: 988px) {
+  .api-btn{
+    width: 100%;
+  }
+}
+  
+@media only screen and (max-width: 992px) {
+  .card-group>.card {
+    flex: 1 1 1 1;
+  }
+}
+@media only screen and (max-width: 576px) {
+  .card-group>.card {
+    flex: none;
+  }
+}
+@media only screen and (max-width: 768px){
+.row-cols-md-4>* {
+    width: 20%;
+}
+}
+@media only screen and (max-width: 576px){
+  .row>*  {
+    width: 50%;
+}
+.col {
+  flex: none;
+}
+}
+@media only screen and (max-width: 576px){
+  .api-btn{
+    width: 138px;
+  }
+}
+@media only screen and (max-width: 328px){
+  .cardapi{
+    height: 70vh;
+  }
+  /* .api-btn{
+    width: 100px;
+    height: 37px;
+  } */
+
+}
+@media only screen and (max-width: 376px){
+  .api-card-title{
+    font-size: 14px;
+  }
+  .api-btn{
+    width: 100px;
+    height: 37px;
+  }
+
+}
+
+/* out-api */
+
+/* W Api */
+.case2{
+  padding: 70px;
+}
+.w-box{  
+  display: flex;
+  width: 84%;
+}
+.w-title{
+  font-size: 32px;
+  font-weight: 700;
+  font-family: 'DM Sans';
+  line-height: 0px;
+  color:rgba(255, 255, 255, 1)
+}
+.w-sub-title{
+  color:rgba(255, 255, 255, 1)
+
+}
+.w-number{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 55px;
+  height: 55px;
+  border-radius:50%;
+  background-color: #F9F9F9;
+  font-size: 24px;
+  font-weight: 700;
+}
+.w-text{
+  width: 60%;
+  font-size: 18px;
+  font-weight: 400;
+  font-family: 'DM Sans';
+  margin-left: 25px;
+  color:rgba(255, 255, 255, 1)
+}
+@media only screen and (max-width: 420px){
+  .w-title{
+    font-size: 28px;
+    
+  }
+  .w-text{
+    font-size: 14px;
+  }
+}
+/* out api */

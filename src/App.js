@@ -1,24 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
+import { Route, Routes } from "react-router-dom";
+import Layout from "./Components/Layout/Layout";
+import Home from "./Components/Pages/Home/Home";
+// import ComingSoon from "./Components/Pages/ComingSoon/ComingSoon";
+// import DocumentationA from "./Components/Pages/DocumentationA/DocumentationA";
+// import VideoTutorial from "./Components/Pages/VideoTutorial/VideoTutorial";
+// import SMCApis from "./Components/Pages/SMCapis/SMCApis";
+
+// npx json-server -p 3500 -w data/db.json
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Routes>
+      <Route path='/' element={<Layout/>}>
+        <Route path='/' element={<Home/>}/>
+        {/* <Route path='/documentation' element={<DocumentationA/>}/>
+        <Route path='/tutorial' element={<h1>This is tutorial</h1>} />
+        <Route path='/video-tutorial' element={<VideoTutorial/>} />
+        <Route path='/smc-apis' element={<SMCApis/>} />
+        <Route path='/comingSoon' element={<ComingSoon/>} /> */}
+      </Route>
+    </Routes>
   );
 }
 

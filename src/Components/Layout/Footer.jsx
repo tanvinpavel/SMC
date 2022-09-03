@@ -48,24 +48,14 @@ const Footer = () => {
                     data-sal-duration="800"
                 >
                     <ul className="footer-menu d-flex justify-content-sm-between">
-                    <li className="menu-item"><a href="index.html">Home</a></li>
-                    <li className="menu-item">
-                        <a href="documentation-a.html">Documentation</a>
-                    </li>
-                    <li className="menu-item"><a href="tutorial.html">Tutorials</a></li>
-                    <li className="menu-item">
-                        <a href="coming-soon.html">Learn by Code</a>
-                    </li>
-                    <li className="menu-item">
-                        <a href="coming-soon.html">Setup SMC</a>
-                    </li>
-                    <li className="menu-item"><a href="coming-soon.html">API’s</a></li>
-                    <li className="menu-item">
-                        <a href="coming-soon.html">Community</a>
-                    </li>
-                    <li className="menu-item">
-                        <a href="coming-soon.html">Get Involved</a>
-                    </li>
+                        <li className="menu-item"><Link to="index.html">Home</Link></li>
+                        <li className="menu-item"><Link to="documentation-a.html">Documentation</Link></li>
+                        <li className="menu-item"><Link to="tutorial.html">Tutorials</Link></li>
+                        <li className="menu-item"><Link to="coming-soon.html">Learn by Code</Link></li>
+                        <li className="menu-item"><Link to="coming-soon.html">Setup SMC</Link></li>
+                        <li className="menu-item"><Link to="coming-soon.html">API’s</Link></li>
+                        <li className="menu-item"><Link to="coming-soon.html">Community</Link></li>
+                        <li className="menu-item"><Link to="coming-soon.html">Get Involved</Link></li>
                     </ul>
                 </div>
                 <div

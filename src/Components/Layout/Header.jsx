@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { NavLink } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 
 const Header = ({headerData, transparent = true}) => {
   const [navbarToggler, setNavbarToggler] = useState(false);
@@ -17,14 +17,6 @@ const Header = ({headerData, transparent = true}) => {
                 <nav className="mainmenu-nav" id="mobilemenu-popup">
 
                   <div className="close-btn">
-                    {/* <div className="mobile-nav-header">
-                        <div className="mobile-nav-logo">
-                            <a href="index.html">  
-                            <img src="image/logo.svg" alt="Logo"/>
-                            </a>
-                        </div>
-                        <button className="mobile-menu-close" data-bs-dismiss="offcanvas"></button>
-                    </div> */}
                     <i className="fal fa-times" onClick={()=>setNavbarToggler((prevState)=>!prevState)}></i>
                   </div>
 
@@ -40,7 +32,7 @@ const Header = ({headerData, transparent = true}) => {
                   </ul>
 
                   <div className="entry-buttons">
-                    <a href="#" className="btn-fill">Get Involved</a>
+                    <Link to="#" className="btn-fill">Get Involved</Link>
                   </div>
 
                 </nav>

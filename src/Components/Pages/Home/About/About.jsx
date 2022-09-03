@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const About = ({aboutData}) => {
   console.log(aboutData[0]);
@@ -25,7 +26,7 @@ const About = ({aboutData}) => {
                   data-sal-delay="400"
                   data-sal-duration="800"
                 >
-                  <a href="#" className="btn-ghost">Get Involved</a>
+                  <Link to="#" className="btn-ghost">Get Involved</Link>
                 </div>
               </div>
             </div>

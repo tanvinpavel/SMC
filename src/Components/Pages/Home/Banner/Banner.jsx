@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Banner = ({bannerData}) => {
   console.log(bannerData);
@@ -30,14 +31,13 @@ const Banner = ({bannerData}) => {
                       Blockchain Technology
                     </p>
                     <div className="entry-buttons">
-                      <a
-                        href="#"
+                      <Link
+                        to="#"
                         className="btn-fill"
                         data-sal="slide-up"
                         data-sal-delay="200"
                         data-sal-duration="800"
-                        >Get Involved</a
-                      >
+                        >Get Involved</Link>
                     </div>
                   </div>
                 </div>

@@ -62,7 +62,7 @@ const Documentation = () => {
                                                             </Link>
                                                             <ul className="doc-sub-menu doc-menu">
                                                                 {
-                                                                    i.sub_menu.map(link => <li key={Math.random()}><a href="#intro">{link.anchor_Text}</a></li>)
+                                                                    i.sub_menu.map(link => <li key={Math.random()}><Link to="#intro">{link.anchor_Text}</Link></li>)
                                                                 }
                                                             </ul>
                                                         </li>)
@@ -121,7 +121,7 @@ const Documentation = () => {
                                 <h3 id="overview">SMC Overview </h3>
                                 <div className="smc-data d-flex align-items-center g-10">
                                     <img src="image/documentation/userpic.png" alt="userpic"/>
-                                    <span>Last Edited By: <a href="">Lala Beam</a>  June 17, 2022</span>
+                                    <span>Last Edited By: <Link to="">Lala Beam</Link>  June 17, 2022</span>
                                 </div>
                                 <div className="smc-content">
                                     <p> Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Praesent auctor purus luctus enim egestas, ac scelerisque ante pulvinar. Donec ut rhoncus ex. Suspendisse ac rhoncus nisl, eu tempor urna. Curabitur vel bibendum lorem.
@@ -145,29 +145,29 @@ const Documentation = () => {
                                                 convallis. Sed ut vulputate nisi. Integer in felis sed leo vestibulum venenatis.
                                 </p>
                                 <ul className="inner-sec-ul">
-                                    <li><a href="">Link to the source</a> Nam bibendum pellentesque quam a convallis.</li>
-                                    <li><a href="">Link to the source</a> Nam bibendum pellentesque quam a convallis.</li>
-                                    <li><a href="">Link to the source</a> Nam bibendum pellentesque quam a convallis. <br/>
+                                    <li><Link to="">Link to the source</Link> Nam bibendum pellentesque quam a convallis.</li>
+                                    <li><Link to="">Link to the source</Link> Nam bibendum pellentesque quam a convallis.</li>
+                                    <li><Link to="">Link to the source</Link> Nam bibendum pellentesque quam a convallis. <br/>
                                                     Maecenas ullamcorper gravida sem sit amet cursus. </li>
-                                    <li><a href="">Link to the source</a> Nam bibendum pellentesque quam a convallis. Sed <br/>
+                                    <li><Link to="">Link to the source</Link> Nam bibendum pellentesque quam a convallis. Sed <br/>
                                                     ut Integer in felis sed leo vestibulum venenatis. </li>
-                                    <li><a href="">Link to the source</a> Nam bibendum pellentesque quam a.</li>
+                                    <li><Link to="">Link to the source</Link> Nam bibendum pellentesque quam a.</li>
                                 </ul>
                                 </div>
                                 <div className="bottom-section3">
                                 <h3 id="foundation">Foundational Blockchain Concepts </h3>
                                 <ul className="inner-sec-ul">
-                                    <li><a href="">Name of the section <i className="far fa-arrow-right"></i></a></li>
-                                    <li><a href="">Name of the section <i className="far fa-arrow-right"></i></a></li>
-                                    <li><a href="">Name of the section <i className="far fa-arrow-right"></i></a></li>
-                                    <li><a href="">Name of the section <i className="far fa-arrow-right"></i></a></li>
-                                    <li><a href="">Name of the section <i className="far fa-arrow-right"></i></a></li>
-                                    <li><a href="">Name of the section <i className="far fa-arrow-right"></i></a></li>
+                                    <li><Link to="">Name of the section <i className="far fa-arrow-right"></i></Link></li>
+                                    <li><Link to="">Name of the section <i className="far fa-arrow-right"></i></Link></li>
+                                    <li><Link to="">Name of the section <i className="far fa-arrow-right"></i></Link></li>
+                                    <li><Link to="">Name of the section <i className="far fa-arrow-right"></i></Link></li>
+                                    <li><Link to="">Name of the section <i className="far fa-arrow-right"></i></Link></li>
+                                    <li><Link to="">Name of the section <i className="far fa-arrow-right"></i></Link></li>
                                 </ul>
-                                <p><a href="">Link to the source </a>
+                                <p><Link to="">Link to the source </Link>
                                     Nam bibendum pellentesque quam a convallis. Sed<br/> ut Integer in felis sed leo vestibulum venenatis.
                                 </p>
-                                <p><a href="">Link to the source </a>Nam bibendum pellentesque quam a. </p>
+                                <p><Link to="">Link to the source </Link>Nam bibendum pellentesque quam a. </p>
                                 </div>
                                 <div className="bottom-section4">
                                 <h3 id="web">Web 3.0 & Metaverse Concepts </h3>
@@ -175,13 +175,13 @@ const Documentation = () => {
                                                 convallis. Sed ut vulputate nisi. Integer in felis sed leo vestibulum venenatis.
                                 </p>
                                 <ul className="inner-sec-ul">
-                                    <li><a href="">Link to the source</a> Nam bibendum pellentesque quam a convallis.</li>
-                                    <li><a href="">Link to the source</a> Nam bibendum pellentesque quam a convallis.</li>
-                                    <li><a href="">Link to the source</a> Nam bibendum pellentesque quam a convallis. <br/>
+                                    <li><Link to="">Link to the source</Link> Nam bibendum pellentesque quam a convallis.</li>
+                                    <li><Link to="">Link to the source</Link> Nam bibendum pellentesque quam a convallis.</li>
+                                    <li><Link to="">Link to the source</Link> Nam bibendum pellentesque quam a convallis. <br/>
                                                     Maecenas ullamcorper gravida sem sit amet cursus. </li>
-                                    <li><a href="">Link to the source</a> Nam bibendum pellentesque quam a convallis. Sed <br/>
+                                    <li><Link to="">Link to the source</Link> Nam bibendum pellentesque quam a convallis. Sed <br/>
                                                     ut Integer in felis sed leo vestibulum venenatis. </li>
-                                    <li><a href="">Link to the source</a> Nam bibendum pellentesque quam a.</li>
+                                    <li><Link to="">Link to the source</Link> Nam bibendum pellentesque quam a.</li>
                                 </ul>
                                 </div>
                             </div>
@@ -190,7 +190,7 @@ const Documentation = () => {
                                 <h3 id="overview">Applications Overview </h3>
                                 <div className="smc-data d-flex align-items-center g-10">
                                     <img src="image/documentation/userpic.png" alt="userpic"/>
-                                    <span>Last Edited By: <a href="">Lala Beam</a>  June 17, 2022</span>
+                                    <span>Last Edited By: <Link to="">Lala Beam</Link>  June 17, 2022</span>
                                 </div>
                                 <div className="smc-content">
                                     <p>Curabitur tempor quis eros tempus lacinia. Nam bibendum pellentesque quam a convallis. Sed ut vulputate nisi. Integer in felis sed leo vestibulum venenatis.
@@ -228,7 +228,7 @@ const Documentation = () => {
                                 <p>Quisque mauris dolor, fringilla sed tincidunt ac, finibus non odio. Sed vitae mauris nec ante pretium finibus.</p>
                                 <div className="tutorial-thumbnail">
                                     <img src="image/documentation/doc-b-tutorial.png" alt=""/>
-                                    <a href="https://www.youtube.com/watch?v=0O2aH4XLbto" className="play"><i className="fas fa-play"></i></a>
+                                    <Link to="https://www.youtube.com/watch?v=0O2aH4XLbto" className="play"><i className="fas fa-play"></i></Link>
                                 </div>
                                 </div>
                                 <div className="bottom-section5">
@@ -251,19 +251,19 @@ const Documentation = () => {
                         <div className="col-lg-2 col-md-0">
                             <div className="doc-right-sidebar">
                             <div className="options">
-                                <a href="" className="d-flex align-items-center g-10 mb--10" id="edit-page">
+                                <Link to="" className="d-flex align-items-center g-10 mb--10" id="edit-page">
                                 <i className="fab fa-github"></i>
                                 <span>Edit page</span>
                                 <i className="far fa-angle-right"></i>
-                                </a>
+                                </Link>
                                 <h4>SMC Overview </h4>
                                 <h5>What’s on this page</h5>
                                 <ul>
-                                <li><a href="#overview">Overview </a></li>
-                                <li><a href="#docs">How To Use The Docs </a></li>
-                                <li><a href="#intro">Intro To SMC </a></li>
-                                <li><a href="#foundation">Foundations </a></li>
-                                <li><a href="#web">Web 3.0 & Metaverse </a></li>
+                                <li><Link to="#overview">Overview </Link></li>
+                                <li><Link to="#docs">How To Use The Docs </Link></li>
+                                <li><Link to="#intro">Intro To SMC </Link></li>
+                                <li><Link to="#foundation">Foundations </Link></li>
+                                <li><Link to="#web">Web 3.0 & Metaverse </Link></li>
                                 </ul>
                             </div>
                             </div>

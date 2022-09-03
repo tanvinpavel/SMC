@@ -1,0 +1,671 @@
+{
+  "items": {
+    "menu_item": [
+      {
+        "anchor_Text": "Home",
+        "menu_link": "/"
+      },
+      {
+        "anchor_Text": "Documentation",
+        "menu_link": "/documentation"
+      },
+      {
+        "anchor_Text": "Tutorials",
+        "menu_link": "https://tutorials"
+      },
+      {
+        "anchor_Text": "Tutorial Video",
+        "menu_link": "/video-tutorial"
+      },
+      {
+        "anchor_Text": "Learn by Code",
+        "menu_link": "/comingSoon"
+      },
+      {
+        "anchor_Text": "Setup SMC",
+        "menu_link": "/smc-apis"
+      },
+      {
+        "anchor_Text": "API's",
+        "menu_link": "/comingSoon"
+      },
+      {
+        "anchor_Text": "Community",
+        "menu_link": "/comingSoon"
+      }
+    ],
+
+    "slider": [
+      {
+        "s_title": "Build Your Future with SMC"
+      }
+    ],
+
+    "str_Section": [
+      {
+        "b_text": "Hundreds of Articles Explaining SMC Technology Writen by Our Staff, Improved & Enriched by Our Community"
+      },
+      {
+        "b_text": "Get The Step-by-Step Guidelines To Launching an SMC Environment No Matter Which Stack You’re Using"
+      },
+      {
+        "b_text": "Video Tutorials for Beginners As Well As Advanced Practitioners Covering Key Concepts of SMC Blockchain"
+      },
+      {
+        "b_text": "Find Online Communities Where SMC is Discussed. Find Like-Minded Builders Who Can Help You Build Your Project"
+      }
+    ],
+
+    "inv_section": [
+      {
+        "b_text": "SMC is the world’s first truly scalable blockchain and is fully backed by the SMC Foundation. But as we take SMC to the world, we rely on our developer community to continuously come up with new innovations and exciting apps which accelerate the adoption of SMC. Join us in building a better world powered by the world’s fastest & safest blockchain."
+      }
+    ],
+
+    "categorized_data": [
+      {
+        "category": "The stacks",
+        "body": [
+          {
+            "b_link": "https://introduction",
+            "b_anchorText": "Introduction To The SMC chain",
+            "b_text": "An introduction to blockchain & SMC"
+          },
+          {
+            "b_link": "https://introduction",
+            "b_anchorText": "Introduction To The SMC chain",
+            "b_text": "An introduction to blockchain & SMC"
+          },
+          {
+            "b_link": "https://introduction",
+            "b_anchorText": "Introduction To The SMC chain",
+            "b_text": "An introduction to blockchain & SMC"
+          },
+          {
+            "b_link": "https://introduction",
+            "b_anchorText": "Introduction To The SMC chain",
+            "b_text": "An introduction to blockchain & SMC"
+          },
+          {
+            "b_link": "https://introduction",
+            "b_anchorText": "Introduction To The SMC chain",
+            "b_text": "An introduction to blockchain & SMC"
+          }
+        ]
+      },
+      {
+        "category": "Introduction",
+        "body": [
+          {
+            "b_link": "https://introduction",
+            "b_anchorText": "Introduction To The SMC chain",
+            "b_text": "An introduction to blockchain & SMC"
+          },
+          {
+            "b_link": "https://introduction",
+            "b_anchorText": "Introduction To The SMC chain",
+            "b_text": "An introduction to blockchain & SMC"
+          },
+          {
+            "b_link": "https://introduction",
+            "b_anchorText": "Introduction To The SMC chain",
+            "b_text": "An introduction to blockchain & SMC"
+          },
+          {
+            "b_link": "https://introduction",
+            "b_anchorText": "Introduction To The SMC chain",
+            "b_text": "An introduction to blockchain & SMC"
+          },
+          {
+            "b_link": "https://introduction",
+            "b_anchorText": "Introduction To The SMC chain",
+            "b_text": "An introduction to blockchain & SMC"
+          },
+          {
+            "b_link": "https://introduction",
+            "b_anchorText": "Introduction To The SMC chain",
+            "b_text": "An introduction to blockchain & SMC"
+          }
+        ]
+      },
+      {
+        "category": "Fundamentals",
+        "body": [
+          {
+            "b_link": "https://introduction",
+            "b_anchorText": "Introduction To The SMC chain",
+            "b_text": "An introduction to blockchain & SMC"
+          },
+          {
+            "b_link": "https://introduction",
+            "b_anchorText": "Introduction To The SMC chain",
+            "b_text": "An introduction to blockchain & SMC"
+          },
+          {
+            "b_link": "https://introduction",
+            "b_anchorText": "Introduction To The SMC chain",
+            "b_text": "An introduction to blockchain & SMC"
+          },
+          {
+            "b_link": "https://introduction",
+            "b_anchorText": "Introduction To The SMC chain",
+            "b_text": "An introduction to blockchain & SMC"
+          },
+          {
+            "b_link": "https://introduction",
+            "b_anchorText": "Introduction To The SMC chain",
+            "b_text": "An introduction to blockchain & SMC"
+          }
+        ]
+      }
+    ]
+  },
+  "navbar": {
+    "menu_item": [
+      {
+        "anchor_Text": "Introduction",
+        "menu_link": "/",
+        "sub_menu": [
+          {
+            "anchor_Text": "SMC Overview",
+            "menu_link": "/documentation",
+            "sub_menu": [
+              {
+                "anchor_Text": "Intro To SMC",
+                "menu_link": "/documentation"
+              },
+              {
+                "anchor_Text": "Foundational Concept",
+                "menu_link": "/documentation"
+              },
+              {
+                "anchor_Text": "Web 3.0 Concepts",
+                "menu_link": "/documentation"
+              },
+              {
+                "anchor_Text": "Metaverse Concepts",
+                "menu_link": "/documentation"
+              }
+            ]
+          },
+          {
+            "anchor_Text": "SMC Overview",
+            "menu_link": "/documentation",
+            "sub_menu": [
+              {
+                "anchor_Text": "Intro To SMC",
+                "menu_link": "/documentation"
+              },
+              {
+                "anchor_Text": "Foundational Concept",
+                "menu_link": "/documentation"
+              },
+              {
+                "anchor_Text": "Web 3.0 Concepts",
+                "menu_link": "/documentation"
+              },
+              {
+                "anchor_Text": "Metaverse Concepts",
+                "menu_link": "/documentation"
+              }
+            ]
+          },
+          {
+            "anchor_Text": "SMC Overview",
+            "menu_link": "/documentation",
+            "sub_menu": [
+              {
+                "anchor_Text": "Intro To SMC",
+                "menu_link": "/documentation"
+              },
+              {
+                "anchor_Text": "Foundational Concept",
+                "menu_link": "/documentation"
+              },
+              {
+                "anchor_Text": "Web 3.0 Concepts",
+                "menu_link": "/documentation"
+              },
+              {
+                "anchor_Text": "Metaverse Concepts",
+                "menu_link": "/documentation"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "anchor_Text": "Application",
+        "menu_link": "/documentation",
+        "sub_menu": [
+          {
+            "anchor_Text": "SMC Overview",
+            "menu_link": "/documentation",
+            "sub_menu": [
+              {
+                "anchor_Text": "Intro To SMC",
+                "menu_link": "/documentation"
+              },
+              {
+                "anchor_Text": "Foundational Concept",
+                "menu_link": "/documentation"
+              },
+              {
+                "anchor_Text": "Web 3.0 Concepts",
+                "menu_link": "/documentation"
+              },
+              {
+                "anchor_Text": "Metaverse Concepts",
+                "menu_link": "/documentation"
+              }
+            ]
+          },
+          {
+            "anchor_Text": "SMC Overview",
+            "menu_link": "/documentation",
+            "sub_menu": [
+              {
+                "anchor_Text": "Intro To SMC",
+                "menu_link": "/documentation"
+              },
+              {
+                "anchor_Text": "Foundational Concept",
+                "menu_link": "/documentation"
+              },
+              {
+                "anchor_Text": "Web 3.0 Concepts",
+                "menu_link": "/documentation"
+              },
+              {
+                "anchor_Text": "Metaverse Concepts",
+                "menu_link": "/documentation"
+              }
+            ]
+          },
+          {
+            "anchor_Text": "SMC Overview",
+            "menu_link": "/documentation",
+            "sub_menu": [
+              {
+                "anchor_Text": "Intro To SMC",
+                "menu_link": "/documentation"
+              },
+              {
+                "anchor_Text": "Foundational Concept",
+                "menu_link": "/documentation"
+              },
+              {
+                "anchor_Text": "Web 3.0 Concepts",
+                "menu_link": "/documentation"
+              },
+              {
+                "anchor_Text": "Metaverse Concepts",
+                "menu_link": "/documentation"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "anchor_Text": "Transaction",
+        "menu_link": "https://tutorials",
+        "sub_menu": [
+          {
+            "anchor_Text": "SMC Overview",
+            "menu_link": "/documentation",
+            "sub_menu": [
+              {
+                "anchor_Text": "Intro To SMC",
+                "menu_link": "/documentation"
+              },
+              {
+                "anchor_Text": "Foundational Concept",
+                "menu_link": "/documentation"
+              },
+              {
+                "anchor_Text": "Web 3.0 Concepts",
+                "menu_link": "/documentation"
+              },
+              {
+                "anchor_Text": "Metaverse Concepts",
+                "menu_link": "/documentation"
+              }
+            ]
+          },
+          {
+            "anchor_Text": "SMC Overview",
+            "menu_link": "/documentation",
+            "sub_menu": [
+              {
+                "anchor_Text": "Intro To SMC",
+                "menu_link": "/documentation"
+              },
+              {
+                "anchor_Text": "Foundational Concept",
+                "menu_link": "/documentation"
+              },
+              {
+                "anchor_Text": "Web 3.0 Concepts",
+                "menu_link": "/documentation"
+              },
+              {
+                "anchor_Text": "Metaverse Concepts",
+                "menu_link": "/documentation"
+              }
+            ]
+          },
+          {
+            "anchor_Text": "SMC Overview",
+            "menu_link": "/documentation",
+            "sub_menu": [
+              {
+                "anchor_Text": "Intro To SMC",
+                "menu_link": "/documentation"
+              },
+              {
+                "anchor_Text": "Foundational Concept",
+                "menu_link": "/documentation"
+              },
+              {
+                "anchor_Text": "Web 3.0 Concepts",
+                "menu_link": "/documentation"
+              },
+              {
+                "anchor_Text": "Metaverse Concepts",
+                "menu_link": "/documentation"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "anchor_Text": "Accounts",
+        "menu_link": "https://video-tutorial",
+        "sub_menu": [
+          {
+            "anchor_Text": "SMC Overview",
+            "menu_link": "/documentation",
+            "sub_menu": [
+              {
+                "anchor_Text": "Intro To SMC",
+                "menu_link": "/documentation"
+              },
+              {
+                "anchor_Text": "Foundational Concept",
+                "menu_link": "/documentation"
+              },
+              {
+                "anchor_Text": "Web 3.0 Concepts",
+                "menu_link": "/documentation"
+              },
+              {
+                "anchor_Text": "Metaverse Concepts",
+                "menu_link": "/documentation"
+              }
+            ]
+          },
+          {
+            "anchor_Text": "SMC Overview",
+            "menu_link": "/documentation",
+            "sub_menu": [
+              {
+                "anchor_Text": "Intro To SMC",
+                "menu_link": "/documentation"
+              },
+              {
+                "anchor_Text": "Foundational Concept",
+                "menu_link": "/documentation"
+              },
+              {
+                "anchor_Text": "Web 3.0 Concepts",
+                "menu_link": "/documentation"
+              },
+              {
+                "anchor_Text": "Metaverse Concepts",
+                "menu_link": "/documentation"
+              }
+            ]
+          },
+          {
+            "anchor_Text": "SMC Overview",
+            "menu_link": "/documentation",
+            "sub_menu": [
+              {
+                "anchor_Text": "Intro To SMC",
+                "menu_link": "/documentation"
+              },
+              {
+                "anchor_Text": "Foundational Concept",
+                "menu_link": "/documentation"
+              },
+              {
+                "anchor_Text": "Web 3.0 Concepts",
+                "menu_link": "/documentation"
+              },
+              {
+                "anchor_Text": "Metaverse Concepts",
+                "menu_link": "/documentation"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "anchor_Text": "Networks",
+        "menu_link": "https://learn-by-code",
+        "sub_menu": [
+          {
+            "anchor_Text": "SMC Overview",
+            "menu_link": "/documentation",
+            "sub_menu": [
+              {
+                "anchor_Text": "Intro To SMC",
+                "menu_link": "/documentation"
+              },
+              {
+                "anchor_Text": "Foundational Concept",
+                "menu_link": "/documentation"
+              },
+              {
+                "anchor_Text": "Web 3.0 Concepts",
+                "menu_link": "/documentation"
+              },
+              {
+                "anchor_Text": "Metaverse Concepts",
+                "menu_link": "/documentation"
+              }
+            ]
+          },
+          {
+            "anchor_Text": "SMC Overview",
+            "menu_link": "/documentation",
+            "sub_menu": [
+              {
+                "anchor_Text": "Intro To SMC",
+                "menu_link": "/documentation"
+              },
+              {
+                "anchor_Text": "Foundational Concept",
+                "menu_link": "/documentation"
+              },
+              {
+                "anchor_Text": "Web 3.0 Concepts",
+                "menu_link": "/documentation"
+              },
+              {
+                "anchor_Text": "Metaverse Concepts",
+                "menu_link": "/documentation"
+              }
+            ]
+          },
+          {
+            "anchor_Text": "SMC Overview",
+            "menu_link": "/documentation",
+            "sub_menu": [
+              {
+                "anchor_Text": "Intro To SMC",
+                "menu_link": "/documentation"
+              },
+              {
+                "anchor_Text": "Foundational Concept",
+                "menu_link": "/documentation"
+              },
+              {
+                "anchor_Text": "Web 3.0 Concepts",
+                "menu_link": "/documentation"
+              },
+              {
+                "anchor_Text": "Metaverse Concepts",
+                "menu_link": "/documentation"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "anchor_Text": "SMC Stack",
+        "menu_link": "https://setup-smc",
+        "sub_menu": [
+          {
+            "anchor_Text": "SMC Overview",
+            "menu_link": "/documentation",
+            "sub_menu": [
+              {
+                "anchor_Text": "Intro To SMC",
+                "menu_link": "/documentation"
+              },
+              {
+                "anchor_Text": "Foundational Concept",
+                "menu_link": "/documentation"
+              },
+              {
+                "anchor_Text": "Web 3.0 Concepts",
+                "menu_link": "/documentation"
+              },
+              {
+                "anchor_Text": "Metaverse Concepts",
+                "menu_link": "/documentation"
+              }
+            ]
+          },
+          {
+            "anchor_Text": "SMC Overview",
+            "menu_link": "/documentation",
+            "sub_menu": [
+              {
+                "anchor_Text": "Intro To SMC",
+                "menu_link": "/documentation"
+              },
+              {
+                "anchor_Text": "Foundational Concept",
+                "menu_link": "/documentation"
+              },
+              {
+                "anchor_Text": "Web 3.0 Concepts",
+                "menu_link": "/documentation"
+              },
+              {
+                "anchor_Text": "Metaverse Concepts",
+                "menu_link": "/documentation"
+              }
+            ]
+          },
+          {
+            "anchor_Text": "SMC Overview",
+            "menu_link": "/documentation",
+            "sub_menu": [
+              {
+                "anchor_Text": "Intro To SMC",
+                "menu_link": "/documentation"
+              },
+              {
+                "anchor_Text": "Foundational Concept",
+                "menu_link": "/documentation"
+              },
+              {
+                "anchor_Text": "Web 3.0 Concepts",
+                "menu_link": "/documentation"
+              },
+              {
+                "anchor_Text": "Metaverse Concepts",
+                "menu_link": "/documentation"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "anchor_Text": "Advanced",
+        "menu_link": "https://api",
+        "sub_menu": [
+          {
+            "anchor_Text": "SMC Overview",
+            "menu_link": "/documentation",
+            "sub_menu": [
+              {
+                "anchor_Text": "Intro To SMC",
+                "menu_link": "/documentation"
+              },
+              {
+                "anchor_Text": "Foundational Concept",
+                "menu_link": "/documentation"
+              },
+              {
+                "anchor_Text": "Web 3.0 Concepts",
+                "menu_link": "/documentation"
+              },
+              {
+                "anchor_Text": "Metaverse Concepts",
+                "menu_link": "/documentation"
+              }
+            ]
+          },
+          {
+            "anchor_Text": "SMC Overview",
+            "menu_link": "/documentation",
+            "sub_menu": [
+              {
+                "anchor_Text": "Intro To SMC",
+                "menu_link": "/documentation"
+              },
+              {
+                "anchor_Text": "Foundational Concept",
+                "menu_link": "/documentation"
+              },
+              {
+                "anchor_Text": "Web 3.0 Concepts",
+                "menu_link": "/documentation"
+              },
+              {
+                "anchor_Text": "Metaverse Concepts",
+                "menu_link": "/documentation"
+              }
+            ]
+          },
+          {
+            "anchor_Text": "SMC Overview",
+            "menu_link": "/documentation",
+            "sub_menu": [
+              {
+                "anchor_Text": "Intro To SMC",
+                "menu_link": "/documentation"
+              },
+              {
+                "anchor_Text": "Foundational Concept",
+                "menu_link": "/documentation"
+              },
+              {
+                "anchor_Text": "Web 3.0 Concepts",
+                "menu_link": "/documentation"
+              },
+              {
+                "anchor_Text": "Metaverse Concepts",
+                "menu_link": "/documentation"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

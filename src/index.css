@@ -473,6 +473,27 @@ body.loaded .wrapper {
   color: var(--button_color);
 }
 
+.btn-api {
+  width: 75%;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 23px;
+  border-radius: 10px;
+  background-color: var(--button_color);
+  color: var(--meta_color);
+  border: 1px solid var(--button_color);
+  transition: all 0.4s ease;
+}
+
+.btn-api:hover {
+  background-color: transparent;
+  color: var(--button_color);
+}
+
 .btn-full {
   width: 100%;
   height: 48px;
@@ -519,6 +540,12 @@ body.loaded .wrapper {
   .btn-ghost {
     width: 100%;
     margin: auto;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .btn-api {
+    width: 100%;
   }
 }
 
@@ -1839,7 +1866,8 @@ body.loaded .wrapper {
   padding-left: 36px;
 }
 
-.rs-sidenav-nav > .rs-sidenav-item, .rs-sidenav-nav > .rs-dropdown .rs-dropdown-toggle {
+.rs-sidenav-nav > .rs-sidenav-item,
+.rs-sidenav-nav > .rs-dropdown .rs-dropdown-toggle {
   font-size: 20px !important;
 }
 
@@ -1855,185 +1883,95 @@ body.loaded .wrapper {
       Environment Setup
   ========================*/
 
-.action-card{
+.action-card {
   background-color: rgba(28, 38, 51, 1);
   border-radius: 10px;
 }
 
-.action-card img{
+.action-card img {
   padding: 16px;
   width: 116px;
 }
 
-.action-card h5{
+.action-card h5 {
   font-size: 16px;
 }
 
-.action-card p{
+.action-card p {
   font-size: 12px;
 }
 
 /* ======================
       Instruction Setup
   ======================== */
-.instructions{
+.instructions {
   margin-top: 10px;
 }
 
-.instructions-text p{
+.instructions-text p {
   font-size: 16px;
 }
 
-.instructions-text ul{
+.instructions-text ul {
   list-style: disc !important;
 }
 
-.instructions-text ul li{
+.instructions-text ul li {
   font-size: 16px;
   line-height: 35px;
   font-weight: 400;
 }
 
-/* out api */
-.cardapi img{
-  max-width: 40px;
-  width: 100%;
-  height: 40px;
-  margin-left: 20px;
-  margin-top: 20px;
-}
-.cardapi{
-  height: 255px;
-  font-weight: 700px;
-  font-size: 16px;
-}
-.api-card-body{
-  padding-left: 1rem;
-  padding-top: 0;
-}
-.api-card-title{
-  margin-top: 0;
-}
-.api-card-text{
-  font-weight: 40px;
-  font-size: 12px;
-  line-height: 1.5;
-}
-.api-btn{
-  margin-left: 0px;
-}
-.api-version{
-  font-size: 12px;
-  line-height: 0px;
-}
-
-@media only screen and (max-width: 1120px) {
-  .api-btn{
-    width: 127px;
-  }
-}
-@media only screen and (max-width: 988px) {
-  .api-btn{
-    width: 100%;
-  }
-}
-  
-@media only screen and (max-width: 992px) {
-  .card-group>.card {
-    flex: 1 1 1 1;
-  }
-}
-@media only screen and (max-width: 576px) {
-  .card-group>.card {
-    flex: none;
-  }
-}
-@media only screen and (max-width: 768px){
-.row-cols-md-4>* {
-    width: 20%;
-}
-}
-@media only screen and (max-width: 576px){
-  .row>*  {
-    width: 50%;
-}
-.col {
-  flex: none;
-}
-}
-@media only screen and (max-width: 576px){
-  .api-btn{
-    width: 138px;
-  }
-}
-@media only screen and (max-width: 328px){
-  .cardapi{
-    height: 70vh;
-  }
-  /* .api-btn{
-    width: 100px;
-    height: 37px;
-  } */
-
-}
-@media only screen and (max-width: 376px){
-  .api-card-title{
-    font-size: 14px;
-  }
-  .api-btn{
-    width: 100px;
-    height: 37px;
-  }
-
+.api-img{
+  width: 55px;
 }
 
 /* out-api */
 
 /* W Api */
-.case2{
-  padding: 70px;
-}
-.w-box{  
+.w-box {
   display: flex;
   width: 84%;
 }
-.w-title{
+.w-title {
   font-size: 32px;
   font-weight: 700;
-  font-family: 'DM Sans';
-  line-height: 0px;
-  color:rgba(255, 255, 255, 1)
+  font-family: "DM Sans";
+  color: rgba(255, 255, 255, 1);
 }
-.w-sub-title{
-  color:rgba(255, 255, 255, 1)
-
+.w-sub-title {
+  color: rgba(255, 255, 255, 1);
 }
-.w-number{
+.w-number {
   display: flex;
   justify-content: center;
   align-items: center;
   width: 55px;
   height: 55px;
-  border-radius:50%;
-  background-color: #F9F9F9;
+  border-radius: 50%;
+  background-color: #f9f9f9;
   font-size: 24px;
   font-weight: 700;
 }
-.w-text{
+.w-text {
   width: 60%;
   font-size: 18px;
   font-weight: 400;
-  font-family: 'DM Sans';
+  font-family: "DM Sans";
   margin-left: 25px;
-  color:rgba(255, 255, 255, 1)
+  color: rgba(255, 255, 255, 1);
 }
-@media only screen and (max-width: 420px){
-  .w-title{
+@media only screen and (max-width: 420px) {
+  .w-title {
     font-size: 28px;
-    
   }
-  .w-text{
+  .w-text {
     font-size: 14px;
+  }
+}
+@media only screen and (max-width: 576px) {
+  .w-box {
+    width: 100%;
   }
 }
 /* out api */

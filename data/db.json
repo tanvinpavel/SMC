@@ -1,3 +1,4 @@
+
 {
   "items": {
     "menu_item": [
@@ -11,7 +12,7 @@
       },
       {
         "anchor_Text": "Tutorials",
-        "menu_link": "https://tutorials"
+        "menu_link": "/tutorials"
       },
       {
         "anchor_Text": "Tutorial Video",
@@ -19,7 +20,7 @@
       },
       {
         "anchor_Text": "Learn by Code",
-        "menu_link": "/comingSoon"
+        "menu_link": "/learn-by-code"
       },
       {
         "anchor_Text": "Setup SMC",
@@ -667,5 +668,153 @@
         ]
       }
     ]
+  },
+
+  "Tutorial2":
+  [
+    {
+        "img": "image/tutorial/tutorial-5.png",
+        "text1": "Create a Simple Blockchain App with SMC",
+        "text2": "This course will teach you how to build your first SMC app step-by-step even if you don’t have any previous experience.",
+        "text3": "Arthur Marcus, Melinda Bates",
+        "text4": "3 hours 20 minutes • 17 Videos • Beginner & Intermediate Level",
+        "btn": "Watch"
+    },
+    {
+        "img": "image/tutorial/tutorial-6.png",
+        "text1": "Create a Simple Blockchain App with SMC",
+        "text2": "This course will teach you how to build your first SMC app step-by-step even if you don’t have any previous experience.",
+        "text4": "3 hours 20 minutes • 17 Videos • Beginner & Intermediate Level",
+        "text3": "Arthur Marcus, Melinda Bates",
+        "btn": "Watch"
+    },
+    {
+        "img": "image/tutorial/tutorial-7.png",
+        "text1": "Create a Simple Blockchain App with SMC",
+        "text2": "This course will teach you how to build your first SMC app step-by-step even if you don’t have any previous experience.",
+        "text4": "3 hours 20 minutes • 17 Videos • Beginner & Intermediate Level",
+        "text3": "Arthur Marcus, Melinda Bates",
+        "btn": "Watch"
+    }
+],
+"Tutorial3":
+[
+  {
+      "img": "image/tutorial/tutorial-8.png",
+      "text1": "Create a Simple Blockchain App with SMC",
+      "text2": "This course will teach you how to build your first SMC app step-by-step even if you don’t have any previous experience.",
+      "text3": "Arthur Marcus, Melinda Bates",
+      "text4": "3 hours 20 minutes • 17 Videos • Beginner & Intermediate Level",
+      "btn": "Watch"
+  },
+  {
+      "img": "image/tutorial/tutorial-9.png",
+      "text1": "Create a Simple Blockchain App with SMC",
+      "text2": "This course will teach you how to build your first SMC app step-by-step even if you don’t have any previous experience.",
+      "text4": "3 hours 20 minutes • 17 Videos • Beginner & Intermediate Level",
+      "text3": "Arthur Marcus, Melinda Bates",
+      "btn": "Watch"
+  },
+  {
+      "img": "image/tutorial/tutorial-10.png",
+      "text1": "Create a Simple Blockchain App with SMC",
+      "text2": "This course will teach you how to build your first SMC app step-by-step even if you don’t have any previous experience.",
+      "text4": "3 hours 20 minutes • 17 Videos • Beginner & Intermediate Level",
+      "text3": "Arthur Marcus, Melinda Bates",
+      "btn": "Watch"
   }
+],
+"LeronByCard1":
+[
+  {
+      "img" : "image/card/card 1.png",
+      "title2": "SMC",
+      "text1" : "SMC Builld",
+      "text2": "A sandbox for Web 3.0 development in SMC with open-source building blocks " ,
+      "btn": "Open Sandbox"
+  },
+  {
+      "img" : "image/card/card2.png",
+      "title2": "SMC",
+      "text1" : "SMC Builld",
+      "text2": "A sandbox for Web 3.0 development in SMC with open-source building blocks " ,
+      "btn": "Open Sandbox"
+  },
+  {
+      "img" : "image/card/card 1.png",
+      "title2": "SMC",
+      "text1" : "SMC Builld",
+      "text2": "A sandbox for Web 3.0 development in SMC with open-source building blocks " ,
+      "btn": "Open Sandbox"
+  },
+  {
+      "img" : "image/card/card2.png",
+      "title2": "SMC",
+      "text1" : "SMC Builld",
+      "text2": "A sandbox for Web 3.0 development in SMC with open-source building blocks " ,
+      "btn": "Open Sandbox"
+  }
+],
+"LeronByCard2":
+[
+  {
+      "img" : "image/card/card 1.png",
+      "title2": "SMC",
+      "text1" : "Super SMC Coder ",
+      "text2": "Remote but instructor led SMC course lasting six months with certification exam.  " ,
+      "btn": "Checkout Bootcamp"
+  },
+  {
+      "img" : "image/card/card2.png",
+      "title2": "SMC",
+      "text1" : "Super SMC Coder ",
+      "text2": "Remote but instructor led SMC course lasting six months with certification exam.  " ,
+      "btn": "Checkout Bootcamp"
+  },
+  {
+      "img" : "image/card/card 1.png",
+      "title2": "SMC",
+      "text1" : "Super SMC Coder ",
+      "text2": "Remote but instructor led SMC course lasting six months with certification exam.  " ,
+      "btn": "Checkout Bootcamp"
+  },
+  {
+      "img" : "image/card/card2.png",
+      "title2": "SMC",
+      "text1" : "Super SMC Coder ",
+      "text2": "Remote but instructor led SMC course lasting six months with certification exam.  " ,
+      "btn": "Checkout Bootcamp"
+  }
+],
+"LeronByCard3":
+[
+  {
+      "img" : "image/card/card 1.png",
+      "title2": "SMC",
+      "text1" : "SMC Builld",
+      "text2": "A sandbox for Web 3.0 development in SMC with open-source building blocks " ,
+      "btn": "Open Sandbox"
+  },
+  {
+      "img" : "image/card/card2.png",
+      "title2": "SMC",
+      "text1" : "SMC Builld",
+      "text2": "A sandbox for Web 3.0 development in SMC with open-source building blocks " ,
+      "btn": "Open Sandbox"
+  },
+  {
+      "img" : "image/card/card 1.png",
+      "title2": "SMC",
+      "text1" : "SMC Builld",
+      "text2": "A sandbox for Web 3.0 development in SMC with open-source building blocks " ,
+      "btn": "Open Sandbox"
+  },
+  {
+      "img" : "image/card/card2.png",
+      "title2": "SMC",
+      "text1" : "SMC Builld",
+      "text2": "A sandbox for Web 3.0 development in SMC with open-source building blocks " ,
+      "btn": "Open Sandbox"
+  }
+]
 }

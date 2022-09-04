@@ -13,7 +13,7 @@ function Tutorial2() {
     
   return (
     <>
-        <div class="tutorial-section2">
+        <div class="tutorial-section2 mb-5">
               <h2>Essential SMC Tutorials </h2>
               {
               tutorial1Item.map((item, i) => <div class="box d-flex">

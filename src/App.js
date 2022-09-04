@@ -1,11 +1,10 @@
 import { Route, Routes } from "react-router-dom";
 import Layout from "./Components/Layout/Layout";
 import Home from "./Components/Pages/Home/Home";
-import ComingSoon from "./Components/Pages/ComingSoon/ComingSoon";
 import DocumentationA from "./Components/Pages/DocumentationA/DocumentationA";
 import VideoTutorial from "./Components/Pages/VideoTutorial/VideoTutorial";
-import SMCApis from "./Components/Pages/SMCapis/SMCApis";
-import LeronByCoding from "./Components/Pages/LeronByCoding/LeronByCoding";
+import SMCApis from "./Components/Pages/SetupEnvironment/SetupEnvironment";
+import LearnByCoding from "./Components/Pages/LearnByCoding/LearnByCoding";
 import OurApi from "./Components/Pages/OurApi/OurApi";
 import TutorialPage from "./Components/Pages/Tutorials/TutorialPage";
 
@@ -17,12 +16,12 @@ function App() {
       <Route path='/' element={<Layout/>}>
         <Route path='/' element={<Home/>}/>
         <Route path='/documentation' element={<DocumentationA/>}/>
-        <Route path='/tutorial' element={<h1>This is tutorial</h1>} />
+        <Route path='/tutorial' element={<TutorialPage/>} />
         <Route path='/video-tutorial' element={<VideoTutorial/>} />
         <Route path='/smc-apis' element={<SMCApis/>} />
         <Route path='/tutorials' element={<TutorialPage/>} />
-        <Route path='/learn-by-code' element={<LeronByCoding/>} />
-        <Route path="/outapi" element={<OurApi/>}/>
+        <Route path='/learn-by-code' element={<LearnByCoding/>} />
+        <Route path="/our-api" element={<OurApi/>}/>
       </Route>
     </Routes>
   );

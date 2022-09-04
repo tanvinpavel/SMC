@@ -1498,10 +1498,6 @@ body.loaded .wrapper {
   }
 }
 
-.tutorial-content {
-  padding: 75px 0;
-}
-
 .tutorial-content .btn-fill {
   width: 200px;
   font-weight: 400;
@@ -1558,10 +1554,6 @@ body.loaded .wrapper {
 
 .slick-slider .box-text {
   margin: 20px 0 25px;
-}
-
-.tutorial-section2 {
-  margin: 105px 0;
 }
 
 .slick-slider {
@@ -1626,30 +1618,30 @@ body.loaded .wrapper {
 /*========================================================================
 10. Tutorial Video
 =========================================================================*/
-.tutorial-video {
-  padding: 83px 0 105px;
+.tutorial-video{
+  padding-top: 83px;
 }
 
-.tutorial-video h2 {
+.tutorial-video h2, .tutorial-slider h2 {
   font-size: 40px;
   line-height: 52px;
   margin: 0;
 }
 
-.tutorial-video h4 {
+.tutorial-video h4, .tutorial-slider h4 {
   font-size: 16px;
   line-height: 21px;
   color: #333333;
 }
 
-.tutorial-video h5 {
+.tutorial-video h5, .tutorial-slider h5 {
   font-weight: 400;
   font-size: 18px;
   line-height: 28px;
   margin: 0;
 }
 
-.tutorial-video span {
+.tutorial-video span, .tutorial-slider span {
   font-size: 12px;
   line-height: 16px;
 }
@@ -1688,10 +1680,6 @@ body.loaded .wrapper {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-}
-
-.video-list {
-  margin: 30px 0 105px;
 }
 
 .video-list .accordion-item {
@@ -1771,7 +1759,7 @@ body.loaded .wrapper {
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.11);
 
 }
-.card-title{
+.tutorial-card-title{
   margin-top: 3rem;
 }
 .row{
@@ -1786,9 +1774,9 @@ body.loaded .wrapper {
   margin: 40px 0;
   line-height: 21px;
 }
-.box-text h4{
+/* .box-text h4{
   line-height: 0.5;
-}
+} */
 
 .tutorial-thumb{
   position: relative;

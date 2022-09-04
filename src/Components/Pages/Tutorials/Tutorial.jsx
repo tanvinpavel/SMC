@@ -5,7 +5,7 @@ import Tutorial3 from './Tutorial3'
 function Tutotial() {
   return (
     <>
-      <div class="tutorial tutorial-1">
+      <div class="tutorial py-5">
         <div class="container">
           <div class="tutorial-content">
             {/* <div class="tutorial-section1">

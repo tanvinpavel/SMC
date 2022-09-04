@@ -40,9 +40,9 @@ const TutorSlider = () => {
         ]
     };
     return (
-        <div className='tv-sec-bottom'>
-            <div class="">            
-                <h2>Related Tutorials </h2>
+        <div class="tutorial-slider my-5">
+            <div class="container">            
+                <h2>Related Tutorials</h2>
                 <div class="slick-slider my-4">
                     <Slider {...settings}>
 

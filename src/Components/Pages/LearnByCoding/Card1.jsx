@@ -37,7 +37,7 @@ function Card1() {
         <div class="container">
             
                 <div className="cards">
-                <div className="card-title">
+                <div className="tutorial-card-title">
                     <h2>Code Sandboxes  </h2>
                         <p>These sandboxes create a safe space for you to experiment with code at the click of a button  </p>
                 </div>
@@ -134,7 +134,7 @@ function Card1() {
 
          <div class="container">
           <div className="cards">
-           <div className="card-title">
+           <div className="tutorial-card-title">
                <h2>Developer Bootcamps  </h2>
                 <p>Learn while you play games. Our interactive game-based tutorials teach you the basics of SMC while you play games.  </p>
            </div>
@@ -226,7 +226,7 @@ function Card1() {
 
         <div class="container">
           <div className="cards">
-           <div className="card-title">
+           <div className="tutorial-card-title">
                <h2>Interactive Tutorials </h2>
                 <p>Learn while you play games. Our interactive game-based tutorials<br/> teach you the basics of SMC while you play games. </p>
            </div>

@@ -5,6 +5,7 @@ import ComingSoon from "./Components/Pages/ComingSoon/ComingSoon";
 import DocumentationA from "./Components/Pages/DocumentationA/DocumentationA";
 import VideoTutorial from "./Components/Pages/VideoTutorial/VideoTutorial";
 import SMCApis from "./Components/Pages/SMCapis/SMCApis";
+import OurApi from "./Components/Pages/OurApi/OurApi";
 
 
 // npx json-server -p 3500 -w data/db.json

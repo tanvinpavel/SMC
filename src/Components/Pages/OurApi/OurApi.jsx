@@ -1,12 +1,30 @@
-import React from 'react'
-import Banner from '../Home/Banner/Banner'
-import ApiCard from './ApiCard'
-import Wapi from './Wapi'
+import axios from 'axios';
+import React, { useEffect, useState } from 'react'
+import Header from '../../Layout/Header';
+import Banner from '../../Shared/Banner'
+import ApiCard from './ApiCard/ApiCard'
+import Wapi from './Wapi/Wapi'
 
 function OurApi() {
+
+  const [homeData, setHomeData] = useState({});
+    
+    useEffect(()=>{
+      (async function(){
+        try {
+          const {data} = await axios.get("http://localhost:3500/items");
+          
+          setHomeData(data);
+        } catch (error) {
+          console.log(error);
+        }
+      })()
+    }, []);
+
   return (
     <>
-      <Banner/>
+      <Header headerData={homeData?.menu_item || []}/>
+      <Banner type="SMCApis"/>
       <ApiCard/>
       <Wapi/>
     </>

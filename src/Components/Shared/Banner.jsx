@@ -45,7 +45,7 @@ const Banner = ({type}) => {
         <section class="banner banner-common" style={{"background-image": `url(${imgPath.current})`}}>
             <div class="container">
                 <div class="row align-items-center">
-                    <div class="col-lg-12">
+                    <div class="col-12 col-sm-12 col-lg-12">
                         <div class="banner-content">
                             <div class="entry-content">
                                 <h1 class="entry-title" data-sal="slide-up" data-sal-delay="200" data-sal-duration="800">{banner[type].title}</h1>

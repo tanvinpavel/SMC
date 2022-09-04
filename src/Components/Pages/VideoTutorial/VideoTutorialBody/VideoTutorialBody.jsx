@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import TutorSlider from '../../../Shared/TutorSlider';
 
 const VideoTutorialBody = () => {
@@ -11,12 +12,12 @@ const VideoTutorialBody = () => {
                 
                 <div class="tv-video">
                   <div class="tv-title">
-                    <a href="https://www.youtube.com/watch?v=0O2aH4XLbto" class="play"><i class="fas fa-play"></i></a>
+                    <Link to="https://www.youtube.com/watch?v=0O2aH4XLbto" class="play"><i class="fas fa-play"></i></Link>
                     <h2 className="heading">Create a Simple Blockchain App with SMC</h2>
                   </div>
                   <div class="tv-thumbnail">
                     <img src="image/tutorial-video/tutorial-video.png" alt="img"/>
-                    <a href="https://www.youtube.com/watch?v=0O2aH4XLbto" class="play"><i class="fas fa-play"></i></a>
+                    <Link to="https://www.youtube.com/watch?v=0O2aH4XLbto" class="play"><i class="fas fa-play"></i></Link>
                   </div>
                   <span>3 hours 20 minutes • 17 Videos • Beginner & Intermediate Level</span>
                 </div>

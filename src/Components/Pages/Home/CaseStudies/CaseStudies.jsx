@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const CaseStudies = ({CaseStudiesData}) => {
   console.log(CaseStudiesData);
@@ -18,10 +19,10 @@ const CaseStudies = ({CaseStudiesData}) => {
                     <ul>
                       {
                         item?.body?.map(item => <li key={Math.random()}>
-                          <a href={item.b_link}>
+                          <Link to={item.b_link}>
                             {item.b_anchorText}
                             <i className="fas fa-chevron-right"></i>
-                          </a>
+                          </Link>
                           <p>{item.b_text}</p>
                         </li>)
                       }

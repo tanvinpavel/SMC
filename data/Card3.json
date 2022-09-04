@@ -1,0 +1,30 @@
+[
+    {
+        "img" : "image/card/card img 1.png",
+        "title2": "SMC",
+        "text1" : "SMC Builld",
+        "text2": "A sandbox for Web 3.0 development in SMC with open-source building blocks " ,
+        "btn": "Open Sandbox"
+    },
+    {
+        "img" : "image/card/card img 2.png",
+        "title2": "SMC",
+        "text1" : "SMC Builld",
+        "text2": "A sandbox for Web 3.0 development in SMC with open-source building blocks " ,
+        "btn": "Open Sandbox"
+    },
+    {
+        "img" : "image/card/card img 1.png",
+        "title2": "SMC",
+        "text1" : "SMC Builld",
+        "text2": "A sandbox for Web 3.0 development in SMC with open-source building blocks " ,
+        "btn": "Open Sandbox"
+    },
+    {
+        "img" : "image/card/card img 2.png",
+        "title2": "SMC",
+        "text1" : "SMC Builld",
+        "text2": "A sandbox for Web 3.0 development in SMC with open-source building blocks " ,
+        "btn": "Open Sandbox"
+    }
+]

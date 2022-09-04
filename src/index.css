@@ -1733,6 +1733,57 @@ body.loaded .wrapper {
   margin-bottom: 45px;
 }
 
+/* Leron By code */
+.tutorial h2 {
+  font-size: 32px;
+  margin-bottom: 45px;
+}
+.card{
+  border: 1px solid #D9D9D9;
+  border-radius: 5px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.11);
+
+}
+.card-title{
+  margin-top: 3rem;
+}
+.row{
+  padding-left: 0;
+  padding-right: 0;
+}
+.card-body{
+  flex: 0;
+}
+
+.box-text{
+  margin: 40px 0;
+  line-height: 21px;
+}
+.box-text h4{
+  line-height: 0.5;
+}
+
+.tutorial-thumb{
+  position: relative;
+}
+ .tutorial-thumb-text{
+  position:absolute;
+  font-size: 36px;
+  font-weight: 700px;
+  top:40%;
+  left: 30%;
+}
+.cards{
+  margin-bottom: 6rem;
+}
+
+.card-btn{
+  margin-left: 15px;
+  margin-bottom: 12px;
+  width: 89%;
+}
+/* Leron By code */
+
 /*========================================================================
 10. Coming soon
 =========================================================================*/

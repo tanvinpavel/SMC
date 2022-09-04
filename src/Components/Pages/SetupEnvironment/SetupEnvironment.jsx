@@ -5,7 +5,7 @@ import Action from './Action/Action';
 import Instructions from './Instructions/Instructions';
 import Banner from '../../Shared/Banner';
 
-const SMCApis = () => {
+const SetupEnvironment = () => {
     const [homeData, setHomeData] = useState({});
     
     useEffect(()=>{
@@ -30,4 +30,4 @@ const SMCApis = () => {
     );
 };
 
-export default SMCApis;
+export default SetupEnvironment;

@@ -5,6 +5,7 @@ import VideoTutorialBody from './VideoTutorialBody/VideoTutorialBody';
 import "../../../../node_modules/slick-carousel/slick/slick.css"; 
 import "../../../../node_modules/slick-carousel/slick/slick-theme.css";
 import Banner from '../../Shared/Banner';
+import TutorSlider from '../../Shared/TutorSlider';
 
 const VideoTutorial = () => {
     const [homeData, setHomeData] = useState({});
@@ -26,6 +27,7 @@ const VideoTutorial = () => {
             <Header headerData={homeData?.menu_item || []}/>
             <Banner type="tutorials"/>
             <VideoTutorialBody/>
+            <TutorSlider/>
         </>
     );
 };

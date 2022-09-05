@@ -8,12 +8,13 @@ const CaseStudies = ({CaseStudiesData}) => {
           <div className="container">
             <div className="row g-0">
               {
-                CaseStudiesData.length > 0 ? CaseStudiesData.map(item => <div key={Math.random()} className="col-lg-4 col-md-6 col-sm-12">
+                CaseStudiesData.length > 0 ? CaseStudiesData.map((item, index) => <div key={Math.random()} className="col-lg-4 col-md-6 col-sm-12">
                   <div
                     className="list-section"
-                    data-sal="slide-up"
-                    data-sal-delay="200"
-                    data-sal-duration="800"
+                    data-aos="fade-up"
+                    data-aos-delay={200 + (250 * index)}
+                    data-aos-duration="800"
+                    data-aos-once="true"
                   >
                     <h3>{item?.category && item.category}</h3>
                     <ul>

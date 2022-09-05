@@ -13,9 +13,10 @@ const Banner = ({bannerData}) => {
                     {
                       bannerData && bannerData.map(item => <h1
                           className="entry-title"
-                          data-sal="slide-up"
-                          data-sal-delay="200"
-                          data-sal-duration="800"
+                          data-aos="fade-up"
+                          data-aos-delay="200"
+                          data-aos-duration="800"
+                          data-aos-once="true"
                           key={Math.random()}
                         >
                         {item.s_title}
@@ -23,9 +24,10 @@ const Banner = ({bannerData}) => {
                     }
                     <p
                       className="entry-subtitle"
-                      data-sal="slide-up"
-                      data-sal-delay="200"
-                      data-sal-duration="800"
+                      data-aos="fade-up"
+                      data-aos-delay="200"
+                      data-aos-duration="800"
+                      data-aos-once="true"
                     >
                       Official Developer Resource Center for SMC <br />
                       Blockchain Technology
@@ -34,9 +36,10 @@ const Banner = ({bannerData}) => {
                       <Link
                         to="#"
                         className="btn-fill"
-                        data-sal="slide-up"
-                        data-sal-delay="200"
-                        data-sal-duration="800"
+                        data-aos="fade-up"
+                        data-aos-delay="200"
+                        data-aos-duration="800"
+                        data-aos-once="true"
                         >Get Involved</Link>
                     </div>
                   </div>

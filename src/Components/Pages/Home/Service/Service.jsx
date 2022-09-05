@@ -6,9 +6,10 @@ const Service = ({serviceData}) => {
         <section id="services" className="service-section service-wrap style-1">
           <div className="container">
             <h1
-              data-sal="slide-up"
-              data-sal-delay="200"
-              data-sal-duration="800"
+              data-aos="fade-up"
+              data-aos-delay="200"
+              data-aos-duration="800"
+              data-aos-once="true"
             >
               Start Building Within Minutes
             </h1>
@@ -16,9 +17,10 @@ const Service = ({serviceData}) => {
               <div className="col-xl-3 col-lg-6 col-md-6">
                 <div
                   className="service-box"
-                  data-sal="slide-up"
-                  data-sal-delay="200"
-                  data-sal-duration="800"
+                  data-aos="fade-up"
+                  data-aos-delay="200"
+                  data-aos-duration="800"
+                  data-aos-once="true"
                 >
                   <div className="icon"><img src="image/pen.svg" alt="pen" /></div>
                   <h3><Link to="coming-soon.html">Read Docs</Link></h3>
@@ -31,9 +33,10 @@ const Service = ({serviceData}) => {
               <div className="col-xl-3 col-lg-6 col-md-6">
                 <div
                   className="service-box"
-                  data-sal="slide-up"
-                  data-sal-delay="300"
-                  data-sal-duration="800"
+                  data-aos="fade-up"
+                  data-aos-delay="300"
+                  data-aos-duration="800"
+                  data-aos-once="true"
                 >
                   <div className="icon">
                     <img src="image/setting.svg" alt="pen" />
@@ -47,9 +50,11 @@ const Service = ({serviceData}) => {
 
               <div
                 className="col-xl-3 col-lg-6 col-md-6"
-                data-sal="slide-up"
-                data-sal-delay="400"
-                data-sal-duration="800"
+                data-aos="fade-up"
+                data-aos-delay="400"
+                data-aos-duration="800"
+                data-aos-once="true"
+
               >
                 <div className="service-box">
                   <div className="icon"><img src="image/play.svg" alt="pen" /></div>
@@ -62,9 +67,10 @@ const Service = ({serviceData}) => {
 
               <div
                 className="col-xl-3 col-lg-6 col-md-6"
-                data-sal="slide-up"
-                data-sal-delay="400"
-                data-sal-easing="ease-out-back"
+                data-aos="fade-up"
+                data-aos-delay="500"
+                data-aos-duration="800"
+                data-aos-once="true"
               >
                 <div className="service-box">
                   <div className="icon"><img src="image/bulb.svg" alt="pen" /></div>

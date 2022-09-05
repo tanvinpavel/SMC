@@ -2,7 +2,7 @@ import axios from 'axios';
 import React, { useEffect, useState } from 'react';
 import Header from '../../Layout/Header';
 import Banner from '../../Shared/Banner';
-import Card1 from './Card1';
+import Card1 from './Card/Card1';
 
 function LearnByCoding() {
   const [homeData, setHomeData] = useState({});

@@ -11,16 +11,18 @@ const Footer = () => {
                         <div className="box-section">
                         <div className="entry-text">
                             <h1
-                            data-sal="slide-up"
-                            data-sal-delay="200"
-                            data-sal-duration="800"
+                            data-aos="fade-up"
+                            data-aos-delay="200"
+                            data-aos-duration="800"
+                            data-aos-once="true"
                             >
                             Build The Future With SMC
                             </h1>
                             <p
-                            data-sal="slide-up"
-                            data-sal-delay="200"
-                            data-sal-duration="800"
+                            data-aos="fade-up"
+                            data-aos-delay="200"
+                            data-aos-duration="800"
+                            data-aos-once="true"
                             >
                             Now is the best time to get into SMC. <br />
                             What can you build with the power & scale of SMC
@@ -28,10 +30,10 @@ const Footer = () => {
                             </p>
                         </div>
                         <div
-                            className="entry-buttons"
-                            data-sal="slide-up"
-                            data-sal-delay="200"
-                            data-sal-duration="800"
+                            data-aos="fade-up"
+                            data-aos-delay="200"
+                            data-aos-duration="800"
+                            data-aos-once="true"
                         >
                             <Link to="#" className="btn-ghost">Get Involved</Link>
                         </div>
@@ -43,9 +45,10 @@ const Footer = () => {
             <footer className="footer-wrap style-1">
                 <div
                     className="footer-top"
-                    data-sal="slide-up"
-                    data-sal-delay="200"
-                    data-sal-duration="800"
+                    data-aos="fade-up"
+                    data-aos-delay="200"
+                    data-aos-duration="800"
+                    data-aos-once="true"
                 >
                     <ul className="footer-menu d-flex justify-content-sm-between">
                         <li className="menu-item"><Link to="index.html">Home</Link></li>
@@ -60,9 +63,10 @@ const Footer = () => {
                 </div>
                 <div
                     className="footer-bottom"
-                    data-sal="slide-up"
-                    data-sal-delay="200"
-                    data-sal-duration="800"
+                    data-aos="fade-up"
+                    data-aos-delay="200"
+                    data-aos-duration="800"
+                    data-aos-once="true"
                 >
                     <div className="footer-social-wrap">
                         <Link to="#"><img src="image/fb-logo.svg" alt="facebook" /></Link>

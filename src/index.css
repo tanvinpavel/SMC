@@ -1618,30 +1618,34 @@ body.loaded .wrapper {
 /*========================================================================
 10. Tutorial Video
 =========================================================================*/
-.tutorial-video{
+.tutorial-video {
   padding-top: 83px;
 }
 
-.tutorial-video h2, .tutorial-slider h2 {
+.tutorial-video h2,
+.tutorial-slider h2 {
   font-size: 40px;
   line-height: 52px;
   margin: 0;
 }
 
-.tutorial-video h4, .tutorial-slider h4 {
+.tutorial-video h4,
+.tutorial-slider h4 {
   font-size: 16px;
   line-height: 21px;
   color: #333333;
 }
 
-.tutorial-video h5, .tutorial-slider h5 {
+.tutorial-video h5,
+.tutorial-slider h5 {
   font-weight: 400;
   font-size: 18px;
   line-height: 28px;
   margin: 0;
 }
 
-.tutorial-video span, .tutorial-slider span {
+.tutorial-video span,
+.tutorial-slider span {
   font-size: 12px;
   line-height: 16px;
 }
@@ -1753,24 +1757,23 @@ body.loaded .wrapper {
   font-size: 32px;
   margin-bottom: 45px;
 }
-.card{
-  border: 1px solid #D9D9D9;
+/* .card {
+  border: 1px solid #d9d9d9;
   border-radius: 5px;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.11);
-
-}
-.tutorial-card-title{
+} */
+.tutorial-card-title {
   margin-top: 3rem;
 }
-.row{
+.row {
   padding-left: 0;
   padding-right: 0;
 }
-.card-body{
+.card-body {
   flex: 0;
 }
 
-.box-text{
+.box-text {
   margin: 40px 0;
   line-height: 21px;
 }
@@ -1778,21 +1781,21 @@ body.loaded .wrapper {
   line-height: 0.5;
 } */
 
-.tutorial-thumb{
+.tutorial-thumb {
   position: relative;
 }
- .tutorial-thumb-text{
-  position:absolute;
+.tutorial-thumb-text {
+  position: absolute;
   font-size: 36px;
   font-weight: 700px;
-  top:40%;
+  top: 40%;
   left: 30%;
 }
-.cards{
+.cards {
   margin-bottom: 6rem;
 }
 
-.card-btn{
+.card-btn {
   margin-left: 15px;
   margin-bottom: 12px;
   width: 89%;
@@ -1910,7 +1913,7 @@ body.loaded .wrapper {
   font-weight: 400;
 }
 
-.api-img{
+.api-img {
   width: 55px;
 }
 
@@ -1963,3 +1966,46 @@ body.loaded .wrapper {
   }
 }
 /* out api */
+
+/* Get Involved */
+.get-involved-container {
+  max-width: 730px;
+}
+
+.get-involved-container ul {
+  padding-left: 0;
+}
+
+.get-involved-container li {
+  margin-bottom: 20px;
+  font-size: 14px;
+  font-weight: 500;
+  color: rgba(28, 38, 51, 1);
+}
+
+.cus-right-arrow {
+  font-size: 20px;
+  line-height: 0.5;
+  margin-left: 25px;
+  font-weight: 500;
+}
+
+.see-all-btn {
+  padding: 0;
+  background: white;
+  line-height: 1.5;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.involved-card{
+  background: rgba(255, 225, 128, 1);
+  border: none;
+  border-radius: 0;
+}
+
+.involved-card p{
+  color: rgba(0, 0, 0, 1);
+  font-size: 14px;
+  line-height: 1.8;
+}

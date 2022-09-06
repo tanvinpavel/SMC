@@ -25,7 +25,7 @@ const banner = {
         subTitle: "We have Tons of Useful API’s To Help You Build With SMC",
         img: "banner5.png",
     },
-    SMCCommunity: {
+    SmcCommunity: {
         id: 5,
         title: "SMC Community ",
         subTitle: "Join The Latest SMC Discussions on Forums, Chat Rooms, and Social Media",

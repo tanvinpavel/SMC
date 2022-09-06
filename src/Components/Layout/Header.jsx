@@ -32,7 +32,7 @@ const Header = ({headerData, transparent = true}) => {
                   </ul>
 
                   <div className="entry-buttons">
-                    <Link to="#" className="btn-fill">Get Involved</Link>
+                    <Link to="/get-involved " className="btn-fill">Get Involved</Link>
                   </div>
 
                 </nav>

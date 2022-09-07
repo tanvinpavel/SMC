@@ -1962,4 +1962,44 @@ body.loaded .wrapper {
     width: 100%;
   }
 }
+
+/* Community */
+.community-sub-title{
+  width: 73%;
+}
+.community-container{
+  width: 78%;
+}
+.community-user-post{
+  justify-content: space-between;
+}
+.user{
+  padding-left: 10px;
+}
+.user-post p{
+  padding-left: 10px;
+}
+.cus-right-arrow{
+  line-height: 1.5;
+}
+@media only screen and (max-width: 992px){
+  .user-post{
+    flex-direction: column;
+  }
+  .user-post{
+    padding-left: 0;
+  }
+}
+
+.community-container-twitter{
+  width: 51%;
+}
+.see-all-btn {
+  padding: 0;
+  background: white;
+  line-height: 1.5;
+  font-size: 14px;
+  font-weight: 700;
+}
+/* Community */
 /* out api */

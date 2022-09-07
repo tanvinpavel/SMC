@@ -8,6 +8,7 @@ import LearnByCoding from "./Components/Pages/LearnByCoding/LearnByCoding";
 import OurApi from "./Components/Pages/OurApi/OurApi";
 import TutorialPage from "./Components/Pages/Tutorials/TutorialPage";
 import Community from "./Components/Pages/Community/Community";
+import GetInvolved from "./Components/Pages/GetInvolved/GetInvolved ";
 
 // npx json-server -p 3500 -w data/db.json
 
@@ -24,6 +25,7 @@ function App() {
         <Route path='/learn-by-code' element={<LearnByCoding/>} />
         <Route path="/our-api" element={<OurApi/>}/>
         <Route path="/community" element={<Community/>}/>
+        <Route path="/get-involved" element={<GetInvolved/>}/>
       </Route>
     </Routes>
   );

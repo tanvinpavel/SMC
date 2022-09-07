@@ -1085,6 +1085,11 @@ body.loaded .wrapper {
     width: 46%;
   }
 }
+@media only screen and (max-width: 390px) {
+  .footer-menu li {
+    width: 45%;
+  }
+}
 
 .footer-menu li a {
   color: var(--light-grey);
@@ -1254,7 +1259,7 @@ body.loaded .wrapper {
 }
 
 .smc-content {
-  padding-right: 146px;
+  /* padding-right: 146px; */
 }
 
 .smc-content li {
@@ -1602,6 +1607,16 @@ body.loaded .wrapper {
 @media only screen and (max-width: 767px) {
   .tutorial-thumb {
     margin-bottom: 20px;
+  }
+}
+@media only screen and (max-width: 360px) {
+  .box-text h2{
+    font-size: 20px;
+    line-height: 26.04px;
+  }
+  .box-text p{
+    font-size: 12px;
+    line-height: 15.62px;
   }
 }
 
@@ -1966,12 +1981,19 @@ body.loaded .wrapper {
   }
 }
 
+@media only screen and (max-width: 390px) {
+  .card-title h2{
+    font-size: 32px;
+    font-weight: 500;
+  }
+}
+
 /* Community */
 .community-sub-title{
   width: 73%;
 }
 .community-container{
-  width: 78%;
+  width: 76%;
 }
 .community-user-post{
   justify-content: space-between;
@@ -1982,8 +2004,11 @@ body.loaded .wrapper {
 .user-post p{
   padding-left: 10px;
 }
-.cus-right-arrow{
+.community-right-arrow{
+  font-size: 20px;
   line-height: 1.5;
+  margin-left: 25px;
+  font-weight: 500;
 }
 @media only screen and (max-width: 992px){
   .user-post{
@@ -1991,6 +2016,22 @@ body.loaded .wrapper {
   }
   .user-post{
     padding-left: 0;
+  }
+}
+
+@media only screen and (max-width: 390px){
+  .community-title{
+    font-size: 32px;
+    line-height: 41.66px;
+  }
+  .community-sub-title{
+    width: 100%;
+  }
+  .community-container{
+    width: 100%;
+  }
+  .community-container-twittert{
+   width: 100%;
   }
 }
 

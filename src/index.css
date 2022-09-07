@@ -1980,26 +1980,20 @@ body.loaded .wrapper {
     width: 100%;
   }
 }
-<<<<<<< HEAD
-=======
+
 @media only screen and (max-width: 390px) {
   .card-title h2{
     font-size: 32px;
     font-weight: 500;
   }
 }
->>>>>>> 20ae99a (Add style)
 
 /* Community */
 .community-sub-title{
   width: 73%;
 }
 .community-container{
-<<<<<<< HEAD
-  width: 78%;
-=======
   width: 76%;
->>>>>>> 20ae99a (Add style)
 }
 .community-user-post{
   justify-content: space-between;
@@ -2010,16 +2004,11 @@ body.loaded .wrapper {
 .user-post p{
   padding-left: 10px;
 }
-<<<<<<< HEAD
-.cus-right-arrow{
-  line-height: 1.5;
-=======
 .community-right-arrow{
   font-size: 20px;
   line-height: 1.5;
   margin-left: 25px;
   font-weight: 500;
->>>>>>> 20ae99a (Add style)
 }
 @media only screen and (max-width: 992px){
   .user-post{
@@ -2029,8 +2018,7 @@ body.loaded .wrapper {
     padding-left: 0;
   }
 }
-<<<<<<< HEAD
-=======
+
 @media only screen and (max-width: 390px){
   .community-title{
     font-size: 32px;
@@ -2046,7 +2034,6 @@ body.loaded .wrapper {
    width: 100%;
   }
 }
->>>>>>> 20ae99a (Add style)
 
 .community-container-twitter{
   width: 51%;

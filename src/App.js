@@ -7,10 +7,6 @@ import SMCApis from "./Components/Pages/SetupEnvironment/SetupEnvironment";
 import LearnByCoding from "./Components/Pages/LearnByCoding/LearnByCoding";
 import OurApi from "./Components/Pages/OurApi/OurApi";
 import TutorialPage from "./Components/Pages/Tutorials/TutorialPage";
-<<<<<<< HEAD
-import Community from "./Components/Pages/Community/Community";
-=======
->>>>>>> 20ae99a (Add style)
 import GetInvolved from "./Components/Pages/GetInvolved/GetInvolved ";
 import Community from "./Components/Pages/Community/Community";
 
@@ -28,10 +24,6 @@ function App() {
         <Route path='/tutorials' element={<TutorialPage/>} />
         <Route path='/learn-by-code' element={<LearnByCoding/>} />
         <Route path="/our-api" element={<OurApi/>}/>
-<<<<<<< HEAD
-        <Route path="/community" element={<Community/>}/>
-=======
->>>>>>> 20ae99a (Add style)
         <Route path="/get-involved" element={<GetInvolved/>}/>
         <Route path="/community" element={<Community/>}/>
       </Route>

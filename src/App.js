@@ -7,7 +7,7 @@ import SMCApis from "./Components/Pages/SetupEnvironment/SetupEnvironment";
 import LearnByCoding from "./Components/Pages/LearnByCoding/LearnByCoding";
 import OurApi from "./Components/Pages/OurApi/OurApi";
 import TutorialPage from "./Components/Pages/Tutorials/TutorialPage";
-import SmcCommunity from "./Components/Pages/SmcCommunity/SmcCommunity";
+import Community from "./Components/Pages/Community/Community";
 import GetInvolved from "./Components/Pages/GetInvolved/GetInvolved ";
 
 // npx json-server -p 3500 -w data/db.json
@@ -24,7 +24,7 @@ function App() {
         <Route path='/tutorials' element={<TutorialPage/>} />
         <Route path='/learn-by-code' element={<LearnByCoding/>} />
         <Route path="/our-api" element={<OurApi/>}/>
-        <Route path="/smc-community" element={<SmcCommunity/>}/>
+        <Route path="/community" element={<Community/>}/>
         <Route path="/get-involved" element={<GetInvolved/>}/>
       </Route>
     </Routes>

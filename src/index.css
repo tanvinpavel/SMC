@@ -1153,7 +1153,7 @@ body.loaded .wrapper {
   padding: 0;
 }
 
-.documentaion-content h1 {
+.documentation-content h1 {
   font-size: 40px;
   line-height: 1.35;
   letter-spacing: -0.05em;
@@ -1161,7 +1161,7 @@ body.loaded .wrapper {
 }
 
 @media only screen and (max-width: 991.99px) {
-  .documentaion-content h1 {
+  .documentation-content h1 {
     font-weight: 500;
     font-size: 32px;
     line-height: 42px;
@@ -1169,20 +1169,20 @@ body.loaded .wrapper {
   }
 }
 
-.documentaion-content h3 {
+.documentation-content h3 {
   font-size: 24px;
   line-height: 31px;
 }
 
-.documentaion-content h5,
-.documentaion-content p,
-.documentaion-content li,
-.documentaion-content span {
+.documentation-content h5,
+.documentation-content p,
+.documentation-content li,
+.documentation-content span {
   font-size: 14px;
   line-height: 25px;
 }
 
-.documentaion-content ul {
+.documentation-content ul {
   padding: 0;
 }
 

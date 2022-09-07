@@ -6,7 +6,7 @@ const Sidebar = () => {
     return (
         <section className="documentation documentation-a">
             <div className="container-fluid">
-                <div className="documentaion-content">
+                <div className="documentation-content">
                     <div className="row g-0">
                         <div className="col-lg-2 col-md-4">
                             <div className="doc-left-sidebar col-xs-mr-2">

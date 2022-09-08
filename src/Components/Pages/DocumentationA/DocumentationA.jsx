@@ -1,7 +1,7 @@
 import axios from 'axios';
 import React, { useEffect, useState } from 'react';
 import Header from '../../Layout/Header';
-import Sidebar from './Sidebar/Sidebar';
+import Documentation from './Documentation/Documentation';
 
 const DocumentationA = () => {
     const [homeData, setHomeData] = useState({});
@@ -21,7 +21,7 @@ const DocumentationA = () => {
     return (
         <>
            <Header transparent={false} headerData={homeData?.menu_item || []}/>
-           <Sidebar/>
+           <Documentation/>
         </>
     );
 };

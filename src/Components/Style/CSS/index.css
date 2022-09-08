@@ -829,7 +829,7 @@ body.loaded .wrapper {
 
 /*============ Banner 1 ============*/
 .banner-1 {
-  background-image: url("../public/image/banner/banner1.jpg");
+  background-image: url("../../../../public/image/banner/banner1.jpg");
 }
 
 .banner-1 .banner-content {
@@ -1010,7 +1010,7 @@ body.loaded .wrapper {
 6. Call to action
 =========================================================================*/
 .cta-section.cta-style-1 {
-  background-image: url("../public/image/cta/cta1.png");
+  background-image: url("../../../../public/image/cta/cta1.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: right;
@@ -1375,6 +1375,7 @@ body.loaded .wrapper {
   .doc-left-sidebar {
     margin-top: 35px;
     margin-left: 15px;
+    margin-right: 15px;
   }
   .doc-sub-sub-menu {
     display: none;
@@ -1422,6 +1423,8 @@ body.loaded .wrapper {
 .documentation-a .bottom-section3 p {
   line-height: 18px;
 }
+
+
 
 /*======================================*/
 /*           Documentation B            */
@@ -1821,7 +1824,7 @@ body.loaded .wrapper {
 10. Coming soon
 =========================================================================*/
 .coming-soon {
-  background-image: url("../public/image/coming-soon/coming-soon.png");
+  background-image: url("../../../../public/image/coming-soon/coming-soon.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;

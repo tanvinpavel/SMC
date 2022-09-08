@@ -21,8 +21,8 @@ const TutorSlider = () => {
             {
               breakpoint: 600,
               settings: {
-                dots: true,
-                arrows: false,
+                dots: false,
+                arrows: true,
                 slidesToShow: 2,
                 slidesToScroll: 2,
                 initialSlide: 2

@@ -23,13 +23,13 @@ const WhyInvolved = () => {
         <div className='container my-5 pb-5'>
             <h2 className='mb-5'>Why Should You Get Involved?</h2>
 
-            <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div className="row row-cols-1 row-cols-md-3 g-4">
                 {
-                    arr.map(item => <div key={item.key} class="col">
-                        <div class="card h-100 involved-card">
-                            <div class="card-body m-3">
-                                <h5 class="card-title mb-4">{item.title}</h5>
-                                <p class="card-text">{item.details}</p>
+                    arr.map(item => <div key={item.key} className="col">
+                        <div className="card h-100 involved-card">
+                            <div className="card-body m-3">
+                                <h5 className="card-title mb-4">{item.title}</h5>
+                                <p className="card-text">{item.details}</p>
                             </div>
                         </div>
                     </div>)

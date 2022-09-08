@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 const About = ({aboutData}) => {
-  console.log(aboutData[0]);
+  // console.log(aboutData[0]);
   return (
       <section id="about" className="about-section about-wrap style-1">
         <div className="container-fluid">

@@ -5,9 +5,9 @@ import Tutorial3 from '../Tutorial3/Tutorial3'
 function Tutotial() {
   return (
     <>
-      <div class="tutorial py-5">
-        <div class="container">
-          <div class="tutorial-content">
+      <div className="tutorial py-5">
+        <div className="container">
+          <div className="tutorial-content">
 
             <Tutorial2/>
             <Tutorial3/>

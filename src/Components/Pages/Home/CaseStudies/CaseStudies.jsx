@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 const CaseStudies = ({CaseStudiesData}) => {
-  console.log(CaseStudiesData);
+    // console.log(CaseStudiesData);
     return (
         <section className="case-studies-section case-studies-wrap style-1">
           <div className="container">

@@ -1,5 +1,5 @@
-import React from "react"
-import { Link } from "react-router-dom"
+import React from "react";
+import { Link } from "react-router-dom";
 
 
 function OnlineCommunity() {
@@ -19,38 +19,38 @@ function OnlineCommunity() {
                     <li className='community-user-post d-flex '>
                         <div className='user-post d-flex'>
                             <div className='user-name'>
-                                <span><i class="fab fa-reddit"><Link to="#"className='user'>r/smcblockchn</Link></i> </span>
+                                <span><i className="fab fa-reddit"><Link to="#"className='user'>r/smcblockchn</Link></i> </span>
                             </div>
                             <p>All Things Related To SMC Development | 2,006,959 Views | 52,032 Active Members </p>
                         </div>
-                        <i class="fal fa-arrow-right cus-right-arrow"></i>
+                        <i className="fal fa-arrow-right cus-right-arrow"></i>
                     </li>
                     <li className='community-user-post d-flex '>
                         <div className='user-post d-flex'>
                             <div className='user-name'>
-                                <span><i class="fab fa-reddit"><Link to="#"className='user'>r/smcblockchn</Link></i> </span>
+                                <span><i className="fab fa-reddit"><Link to="#"className='user'>r/smcblockchn</Link></i> </span>
                             </div>
                             <p>All Things Related To SMC Development | 2,006,959 Views | 52,032 Active Members </p>
                         </div>
-                        <i class="fal fa-arrow-right cus-right-arrow"></i>
+                        <i className="fal fa-arrow-right cus-right-arrow"></i>
                     </li>
                     <li className='community-user-post d-flex '>
                         <div className='user-post d-flex'>
                             <div className='user-name'>
-                                <span><i class="fab fa-reddit"><Link to="#"className='user'>r/smcblockchn</Link></i> </span>
+                                <span><i className="fab fa-reddit"><Link to="#"className='user'>r/smcblockchn</Link></i> </span>
                             </div>
                             <p>All Things Related To SMC Development | 2,006,959 Views | 52,032 Active Members </p>
                         </div>
-                        <i class="fal fa-arrow-right cus-right-arrow"></i>
+                        <i className="fal fa-arrow-right cus-right-arrow"></i>
                     </li>
                     <li className='community-user-post d-flex '>
                         <div className='user-post d-flex'>
                             <div className='user-name'>
-                                <span><i class="fab fa-reddit"><Link to="#"className='user'>r/smcblockchn</Link></i> </span>
+                                <span><i className="fab fa-reddit"><Link to="#"className='user'>r/smcblockchn</Link></i> </span>
                             </div>
                             <p>All Things Related To SMC Development | 2,006,959 Views | 52,032 Active Members </p>
                         </div>
-                        <i class="fal fa-arrow-right cus-right-arrow"></i>
+                        <i className="fal fa-arrow-right cus-right-arrow"></i>
                     </li>
                 </ul>
             </div>
@@ -64,38 +64,38 @@ function OnlineCommunity() {
                     <li className='community-user-post d-flex '>
                         <div className='user-post d-flex'>
                             <div className='user-name'>
-                                <span><i class="fas fa-comment-minus"><Link to="#"className='user'>SMC Code Army</Link></i> </span>
+                                <span><i className="fas fa-comment-minus"><Link to="#"className='user'>SMC Code Army</Link></i> </span>
                             </div>
                             <p>All Things Related To SMC Development | 2,006,959 Views | 52,032 Active Members </p>
                         </div>
-                        <i class="fal fa-arrow-right cus-right-arrow"></i>
+                        <i className="fal fa-arrow-right cus-right-arrow"></i>
                     </li>
                     <li className='community-user-post d-flex '>
                         <div className='user-post d-flex'>
                             <div className='user-name'>
-                                <span><i class="fas fa-comment-minus"><Link to="#"className='user'>SMC Code Army</Link></i> </span>
+                                <span><i className="fas fa-comment-minus"><Link to="#"className='user'>SMC Code Army</Link></i> </span>
                             </div>
                             <p>All Things Related To SMC Development | 2,006,959 Views | 52,032 Active Members </p>
                         </div>
-                        <i class="fal fa-arrow-right cus-right-arrow"></i>
+                        <i className="fal fa-arrow-right cus-right-arrow"></i>
                     </li>
                     <li className='community-user-post d-flex '>
                         <div className='user-post d-flex'>
                             <div className='user-name'>
-                                <span><i class="fas fa-comment-minus"><Link to="#"className='user'>SMC Code Army</Link></i> </span>
+                                <span><i className="fas fa-comment-minus"><Link to="#"className='user'>SMC Code Army</Link></i> </span>
                             </div>
                             <p>All Things Related To SMC Development | 2,006,959 Views | 52,032 Active Members </p>
                         </div>
-                        <i class="fal fa-arrow-right cus-right-arrow"></i>
+                        <i className="fal fa-arrow-right cus-right-arrow"></i>
                     </li>
                     <li className='community-user-post d-flex '>
                         <div className='user-post d-flex'>
                             <div className='user-name'>
-                                <span><i class="fas fa-comment-minus"><Link to="#"className='user'>SMC Code Army</Link></i> </span>
+                                <span><i className="fas fa-comment-minus"><Link to="#"className='user'>SMC Code Army</Link></i> </span>
                             </div>
                             <p>All Things Related To SMC Development | 2,006,959 Views | 52,032 Active Members </p>
                         </div>
-                        <i class="fal fa-arrow-right cus-right-arrow"></i>
+                        <i className="fal fa-arrow-right cus-right-arrow"></i>
                     </li>
                 </ul>
             </div>
@@ -109,20 +109,20 @@ function OnlineCommunity() {
                     <li className='community-user-post d-flex '>
                         <div className='user-post d-flex'>
                             <div className='user-name'>
-                                <span><i class="fab fa-twitter text-primary"><Link to="#"className='user'>@smctoptips</Link></i> </span>
+                                <span><i className="fab fa-twitter text-primary"><Link to="#"className='user'>@smctoptips</Link></i> </span>
                             </div>
                             <p>All Things Related To SMC App Development </p>
                         </div>
-                        <i class="fal fa-arrow-right cus-right-arrow"></i>
+                        <i className="fal fa-arrow-right cus-right-arrow"></i>
                     </li>
                     <li className='community-user-post d-flex '>
                         <div className='user-post d-flex'>
                             <div className='user-name'>
-                                <span><i class="fab fa-twitter text-primary"><Link to="#"className='user'>@smctoptips</Link></i> </span>
+                                <span><i className="fab fa-twitter text-primary"><Link to="#"className='user'>@smctoptips</Link></i> </span>
                             </div>
                             <p>All Things Related To SMC App Development </p>
                         </div>
-                        <i class="fal fa-arrow-right cus-right-arrow"></i>
+                        <i className="fal fa-arrow-right cus-right-arrow"></i>
                     </li>
                 </ul>
             </div>
@@ -136,29 +136,29 @@ function OnlineCommunity() {
                     <li className='community-user-post d-flex '>
                         <div className='user-post d-flex'>
                             <div className='user-name'>
-                                <span><i class="fab fa-youtube text-danger"><Link to="#"className='user'>@smctoptips</Link></i> </span>
+                                <span><i className="fab fa-youtube text-danger"><Link to="#"className='user'>@smctoptips</Link></i> </span>
                             </div>
                             <p>All Things Related To SMC App Development </p>
                         </div>
-                        <i class="fal fa-arrow-right cus-right-arrow"></i>
+                        <i className="fal fa-arrow-right cus-right-arrow"></i>
                     </li>
                     <li className='community-user-post d-flex '>
                         <div className='user-post d-flex'>
                             <div className='user-name'>
-                                <span><i class="fab fa-youtube text-danger"><Link to="#"className='user'>@smctoptips</Link></i> </span>
+                                <span><i className="fab fa-youtube text-danger"><Link to="#"className='user'>@smctoptips</Link></i> </span>
                             </div>
                             <p>All Things Related To SMC App Development </p>
                         </div>
-                        <i class="fal fa-arrow-right cus-right-arrow"></i>
+                        <i className="fal fa-arrow-right cus-right-arrow"></i>
                     </li>
                     <li className='community-user-post d-flex '>
                         <div className='user-post d-flex'>
                             <div className='user-name'>
-                                <span><i class="fab fa-youtube text-danger"><Link to="#"className='user'>@smctoptips</Link></i> </span>
+                                <span><i className="fab fa-youtube text-danger"><Link to="#"className='user'>@smctoptips</Link></i> </span>
                             </div>
                             <p>All Things Related To SMC App Development </p>
                         </div>
-                        <i class="fal fa-arrow-right cus-right-arrow"></i>
+                        <i className="fal fa-arrow-right cus-right-arrow"></i>
                     </li>
                 </ul>
             </div>

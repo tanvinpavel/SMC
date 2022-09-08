@@ -10,14 +10,14 @@ const Sidebar = () => {
                 <Nav activeKey="1">
                     <Nav.Menu eventKey="1" title="Introduction">
                         <Nav.Menu eventKey="1-1" title="SMC Overview">
-                            <div className='d-none d-md-block'>
+                            {/* <div className='d-none d-md-block'> */}
                                 <Nav.Item href='#intro' eventKey="1-1-1">Intro To SMC</Nav.Item>
                                 <Nav.Item href='#foundation' eventKey="1-1-2">Foundational Concept</Nav.Item>
                                 <Nav.Item href='#web' eventKey="1-1-3">Web 3.0 & Metaverse</Nav.Item>
-                            </div>
-                            <div className='d-block d-md-none'>
+                            {/* </div> */}
+                            {/* <div className='d-block d-md-none'>
                                 <Article/>
-                            </div>
+                            </div> */}
                         </Nav.Menu>
                         <Nav.Menu eventKey="1-2" title="SMC Overview">
                             <Nav.Item eventKey="1-2-1">Intro To SMC</Nav.Item>

@@ -18,22 +18,22 @@ const HowToInvolved = () => {
                     <li className='d-flex align-items-center'>
                         <span>Attend an <Link to="#">SMC Hackathon</Link> To Test & Improve Your Skills With a Chance To Win Prizes
                         </span>
-                        <i class="fal fa-arrow-right cus-right-arrow"></i>
+                        <i className="fal fa-arrow-right cus-right-arrow"></i>
                     </li>
                     <li className='d-flex align-items-center'>
                         <span>Attend an <Link to="#">SMC Hackathon</Link> To Test & Improve Your Skills With a Chance To Win Prizes
                         </span>
-                        <i class="fal fa-arrow-right cus-right-arrow"></i>
+                        <i className="fal fa-arrow-right cus-right-arrow"></i>
                     </li>
                     <li className='d-flex align-items-center'>
                         <span>Attend an <Link to="#">SMC Hackathon</Link> To Test & Improve Your Skills With a Chance To Win Prizes
                         </span>
-                        <i class="fal fa-arrow-right cus-right-arrow"></i>
+                        <i className="fal fa-arrow-right cus-right-arrow"></i>
                     </li>
                     <li className='d-flex align-items-center'>
                         <span>Attend an <Link to="#">SMC Hackathon</Link> To Test & Improve Your Skills With a Chance To Win Prizes
                         </span>
-                        <i class="fal fa-arrow-right cus-right-arrow"></i>
+                        <i className="fal fa-arrow-right cus-right-arrow"></i>
                     </li>
                 </ul>
             </div>
@@ -48,22 +48,22 @@ const HowToInvolved = () => {
                     <li className='d-flex align-items-center'>
                         <span>SMC’s official forum for latest <Link to="#">research & academic</Link> findings published by members 
                         </span>
-                        <i class="fal fa-arrow-right cus-right-arrow"></i>
+                        <i className="fal fa-arrow-right cus-right-arrow"></i>
                     </li>
                     <li className='d-flex align-items-center'>
                         <span>SMC’s official forum for latest <Link to="#">research & academic</Link> findings published by members 
                         </span>
-                        <i class="fal fa-arrow-right cus-right-arrow"></i>
+                        <i className="fal fa-arrow-right cus-right-arrow"></i>
                     </li>
                     <li className='d-flex align-items-center'>
                         <span>SMC’s official forum for latest <Link to="#">research & academic</Link> findings published by members 
                         </span>
-                        <i class="fal fa-arrow-right cus-right-arrow"></i>
+                        <i className="fal fa-arrow-right cus-right-arrow"></i>
                     </li>
                     <li className='d-flex align-items-center'>
                         <span>SMC’s official forum for latest <Link to="#">research & academic</Link> findings published by members 
                         </span>
-                        <i class="fal fa-arrow-right cus-right-arrow"></i>
+                        <i className="fal fa-arrow-right cus-right-arrow"></i>
                     </li>
                 </ul>
             </div>
@@ -80,22 +80,22 @@ const HowToInvolved = () => {
                     <ul>
                         <li className='d-flex align-items-center'>
                             <span>SMC is looking for good writers, <Link to="#">Apply here</Link> to see if you would be a good fit for us</span>
-                            <i class="fal fa-arrow-right cus-right-arrow"></i>
+                            <i className="fal fa-arrow-right cus-right-arrow"></i>
                         </li>
                         <li className='d-flex align-items-center'>
                             <span>SMC’s official forum for latest <Link to="#">research & academic</Link> findings published by members 
                             </span>
-                            <i class="fal fa-arrow-right cus-right-arrow"></i>
+                            <i className="fal fa-arrow-right cus-right-arrow"></i>
                         </li>
                         <li className='d-flex align-items-center'>
                             <span>SMC’s official forum for latest <Link to="#">research & academic</Link> findings published by members 
                             </span>
-                            <i class="fal fa-arrow-right cus-right-arrow"></i>
+                            <i className="fal fa-arrow-right cus-right-arrow"></i>
                         </li>
                         <li className='d-flex align-items-center'>
                             <span>SMC’s official forum for latest <Link to="#">research & academic</Link> findings published by members 
                             </span>
-                            <i class="fal fa-arrow-right cus-right-arrow"></i>
+                            <i className="fal fa-arrow-right cus-right-arrow"></i>
                         </li>
                     </ul>
                 </div>
@@ -105,11 +105,11 @@ const HowToInvolved = () => {
                     <ul>
                         <li className='d-flex align-items-center'>
                             <span>Get SMC members in your city <Link to="#">together</Link> and let discussions and innovation fly</span>
-                            <i class="fal fa-arrow-right cus-right-arrow"></i>
+                            <i className="fal fa-arrow-right cus-right-arrow"></i>
                         </li>
                         <li className='d-flex align-items-center'>
                             <span>Get SMC members in your city <Link to="#">together</Link> and let discussions and innovation fly</span>
-                            <i class="fal fa-arrow-right cus-right-arrow"></i>
+                            <i className="fal fa-arrow-right cus-right-arrow"></i>
                         </li>
                     </ul>
                 </div>
@@ -119,11 +119,11 @@ const HowToInvolved = () => {
                     <ul>
                         <li className='d-flex align-items-center'>
                             <span>We are also looking for writers in foreign languages. <Link to="#">See here</Link> for the details </span>
-                            <i class="fal fa-arrow-right cus-right-arrow"></i>
+                            <i className="fal fa-arrow-right cus-right-arrow"></i>
                         </li>
                         <li className='d-flex align-items-center'>
                             <span>We are also looking for writers in foreign languages. <Link to="#">See here</Link> for the details </span>
-                            <i class="fal fa-arrow-right cus-right-arrow"></i>
+                            <i className="fal fa-arrow-right cus-right-arrow"></i>
                         </li>
                     </ul>
                 </div>
@@ -133,7 +133,7 @@ const HowToInvolved = () => {
                     <ul>
                         <li className='d-flex align-items-center'>
                             <span>Make small donations in ideas you believe, <Link to="#">Any Amount</Link> can make a big difference </span>
-                            <i class="fal fa-arrow-right cus-right-arrow"></i>
+                            <i className="fal fa-arrow-right cus-right-arrow"></i>
                         </li>
                     </ul>
                 </div>
@@ -144,11 +144,11 @@ const HowToInvolved = () => {
                 <ul>
                     <li className='d-flex align-items-center mb-5'>
                         <span>SMC is creating both a centralized and a decentralized financial ecosystem and experienced financial professionals can share their feedback with our community to improve the overall ecosystem <Link to="#">check out the forum here</Link></span>
-                        <i class="fal fa-arrow-right cus-right-arrow"></i>
+                        <i className="fal fa-arrow-right cus-right-arrow"></i>
                     </li>
                     <li className='d-flex align-items-center mb-5'>
                         <span>SMC is creating both a centralized and a decentralized financial ecosystem and experienced financial professionals can share their feedback with our community to improve the overall ecosystem <Link to="#">check out the forum here</Link></span>
-                        <i class="fal fa-arrow-right cus-right-arrow"></i>
+                        <i className="fal fa-arrow-right cus-right-arrow"></i>
                     </li>
                 </ul>
             </div>
@@ -165,11 +165,11 @@ const HowToInvolved = () => {
                     <ul>
                         <li className='d-flex align-items-center'>
                             <span>The SMC ecosystem needs your talents <Link to="#">checkout</Link> how you can contribute </span>
-                            <i class="fal fa-arrow-right cus-right-arrow"></i>
+                            <i className="fal fa-arrow-right cus-right-arrow"></i>
                         </li>
                         <li className='d-flex align-items-center'>
                             <span>The SMC ecosystem needs your talents <Link to="#">checkout</Link> how you can contribute </span>
-                            <i class="fal fa-arrow-right cus-right-arrow"></i>
+                            <i className="fal fa-arrow-right cus-right-arrow"></i>
                         </li>
                     </ul>
                 </div>
@@ -179,7 +179,7 @@ const HowToInvolved = () => {
                     <ul>
                         <li className='d-flex align-items-center'>
                             <span>The SMC ecosystem needs your marketing talents <Link to="#">checkout</Link> how you can contribute</span>
-                            <i class="fal fa-arrow-right cus-right-arrow"></i>
+                            <i className="fal fa-arrow-right cus-right-arrow"></i>
                         </li>
                     </ul>
                 </div>

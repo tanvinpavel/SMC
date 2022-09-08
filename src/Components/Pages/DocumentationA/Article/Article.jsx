@@ -8,7 +8,7 @@ const Article = () => {
                 <h1>SMC Development Documentation </h1>
                 <p>The Official SMC Documentation Site <br/> 7 Chapters | 175 Pages | Updated 13 Times in the last 7 days</p>
             </div>
-            <div className="inner-section-bottom" id="smc-overview">
+            <div className="inner-section-bottom mx-2 mx-md-0" id="smc-overview">
                 <div className="bottom-section1">
                     <h3 id="overview">SMC Overview </h3>
                     <div className="smc-data d-flex align-items-center g-10">

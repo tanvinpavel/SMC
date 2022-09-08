@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 import { Link } from 'react-router-dom';
 
 const apis = [
@@ -55,13 +55,13 @@ function ApiCard() {
 
             <div className="row row-cols-2 row-cols-md-3 row-cols-lg-5 shadow-sm mx-1">
                 {
-                    apis.map(item => <div key={item.id} class="card">
+                    apis.map(item => <div key={item.id} className="card">
                         <div className='h-100 py-3 px-md-2'>
-                            <img src={item.img} class="card-img-top api-img" alt="..."/>
+                            <img src={item.img} className="card-img-top api-img" alt="..."/>
                         </div>
-                        <div class="px-0 px-md-2 card-body">
-                            <h5 class="card-title">Node JS</h5>
-                            <p class="card-text">Start Building an SMC App Using our Node JS API’s.</p>
+                        <div className="px-0 px-md-2 card-body">
+                            <h5 className="card-title">Node JS</h5>
+                            <p className="card-text">Start Building an SMC App Using our Node JS API’s.</p>
                             <p className='api-version'>Version 1.035</p>
                             <div>
                                 <Link to="#" className="btn-api">Read The Docs</Link>

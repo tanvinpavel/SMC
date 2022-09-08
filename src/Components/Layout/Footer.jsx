@@ -48,7 +48,7 @@ const Footer = () => {
                     data-aos="fade-up"
                     data-aos-delay="200"
                     data-aos-duration="800"
-                    data-aos-once="true"
+                    data-aos-once="false"
                 >
                     <ul className="footer-menu d-flex justify-content-sm-between">
                         <li className="menu-item"><Link to="index.html">Home</Link></li>
@@ -66,7 +66,8 @@ const Footer = () => {
                     data-aos="fade-up"
                     data-aos-delay="200"
                     data-aos-duration="800"
-                    data-aos-once="true"
+                    data-aos-once="false"
+                    data-aos-anchor=".footer-top"
                 >
                     <div className="footer-social-wrap">
                         <Link to="#"><img src="image/fb-logo.svg" alt="facebook" /></Link>

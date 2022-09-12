@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react'
+import { Link } from 'react-router-dom'
 
 
 function Tutorial3() {
@@ -14,68 +15,37 @@ function Tutorial3() {
         })
       }, [])
   return (
-    <>
-        <div className="tutorial-section3">
-              <h2>Advanced SMC Tutorials </h2>
+    <div class="tutorial py-5">
+        <div class="container">
+          <div class="tutorial-content">
 
-                {
-                    tutorial2Item.map((item) =>
-                        <div className="box d-flex">
-                            <div className="tutorial-thumb"><a href=""><img src={item.img} alt="img"/></a></div>
-                            <div className="box-text">
-                            <h3><a href="">{item.text1}</a></h3>
-                            <p>{item.text2} </p>
-                            <span>{item.text3} </span>
-                            <div className="stars">
-                                <i className="fas fa-star"></i>
-                                <i className="fas fa-star"></i>
-                                <i className="fas fa-star"></i>
-                                <i className="fas fa-star"></i>
-                                <i className="fas fa-star-half"></i>
-                            </div>
-                            <span>{item.text4}</span>
-                            <a href="#" className="btn-fill">{item.btn}</a>
-                            </div>
-                        </div>
-                    )
-                }
-
-              {/* <div className="box d-flex m-65">
-                <div className="tutorial-thumb"><a href=""><img src="image/tutorial/tutorial-9.png" alt="img"/></a></div>
-                <div className="box-text">
-                  <h3><a href="">Create a Simple Blockchain App with SMC</a></h3>
-                  <p>This course will teach you how to build your first SMC app step-by-step even if you don’t have any previous experience. </p>
-                  <span>Arthur Marcus, Melinda Bates </span>
-                  <div className="stars">
-                    <i className="fas fa-star"></i>
-                    <i className="fas fa-star"></i>
-                    <i className="fas fa-star"></i>
-                    <i className="fas fa-star"></i>
-                    <i className="fas fa-star-half"></i>
+            
+            <h2>Advanced SMC Tutorials </h2>
+          {
+              tutorial2Item.map((item) =>
+                  <div class="box d-flex">
+                      <div class="tutorial-thumb"><Link to=""><img src={item.img} alt="img"/></Link></div>
+                      <div class="box-text">
+                      <h3><Link to="">{item.text1}</Link></h3>
+                      <p>{item.text2} </p>
+                      <span>{item.text3} </span>
+                      <div class="stars">
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star-half"></i>
+                      </div>
+                      <span>{item.text4}</span>
+                      <Link to="#" class="btn-fill">{item.btn}</Link>
+                      </div>
                   </div>
-                  <span>3 hours 20 minutes • 17 Videos • Beginner & Intermediate Level</span>
-                  <a href="#" className="btn-fill">Watch</a>
-                </div>
-              </div>
-              <div className="box d-flex">
-                <div className="tutorial-thumb"><a href=""><img src="image/tutorial/tutorial-10.png" alt="img"/></a></div>
-                <div className="box-text">
-                  <h3><a href="">Create a Simple Blockchain App with SMC</a></h3>
-                  <p>This course will teach you how to build your first SMC app step-by-step even if you don’t have any previous experience. </p>
-                  <span>Arthur Marcus, Melinda Bates </span>
-                  <div className="stars">
-                    <i className="fas fa-star"></i>
-                    <i className="fas fa-star"></i>
-                    <i className="fas fa-star"></i>
-                    <i className="fas fa-star"></i>
-                    <i className="fas fa-star-half"></i>
-                  </div>
-                  <span>3 hours 20 minutes • 17 Videos • Beginner & Intermediate Level</span>
-                  <a href="#" className="btn-fill">Watch</a>
-                </div>
-              </div> */}
+              )
+          }
             </div>
-    </>
+          </div>
+
+       </div>
   )
 }
 

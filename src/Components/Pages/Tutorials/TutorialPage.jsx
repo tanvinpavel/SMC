@@ -3,7 +3,8 @@ import React, { useEffect, useState } from 'react';
 import Header from '../../Layout/Header';
 import Banner from '../../Shared/Banner';
 import TutorSlider from '../../Shared/TutorSlider';
-import Tutotial from './Tutorial1/Tutorial';
+import Tutorial2 from './Tutorial2/Tutorial2';
+import Tutorial3 from './Tutorial3/Tutorial3';
 
 function TutorialPage() {
   const [homeData, setHomeData] = useState({});
@@ -24,7 +25,8 @@ function TutorialPage() {
       <Header headerData={homeData?.menu_item || []}/>
       <Banner type="tutorials"/>
       <TutorSlider/>
-      <Tutotial/>
+      <Tutorial2/>
+      <Tutorial3/>
     </>
   )
 }

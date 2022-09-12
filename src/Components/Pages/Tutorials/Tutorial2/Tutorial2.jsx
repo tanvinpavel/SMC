@@ -1,16 +1,16 @@
 import React, { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
 function Tutorial2() {
-    const [tutorial1Item, setTutorial1Item] = useState([])
-    console.log(tutorial1Item)
-       useEffect(() => {
-        fetch('http://localhost:3500/Tutorial2')
-        .then((result) => result.json())
-        .then((data) => {
-          console.log(data)
-          setTutorial1Item(data)
-        })
-      }, [])
+    const [tutorial1Item, setTutorial1Item] = useState([]);
+
+    useEffect(() => {
+      fetch('http://localhost:3500/Tutorial2')
+      .then((result) => result.json())
+      .then((data) => {
+        console.log(data)
+        setTutorial1Item(data)
+      });
+    }, [])
     
   return (
      <div class="tutorial py-5">

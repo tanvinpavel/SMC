@@ -10,15 +10,25 @@ const Home = () => {
     const [homeData, setHomeData] = useState({});
     
     useEffect(()=>{
+      document.title = "SMC | Home";
+      let isCancelled = false;
       (async function(){
         try {
           const {data} = await axios.get("http://localhost:3500/items");
-          
-          setHomeData(data);
+          if(!isCancelled){
+            console.log('data loaded');
+            console.log(data);
+            setHomeData(data);
+          }
         } catch (error) {
           console.log(error);
         }
       })()
+
+      return () => {
+        console.log('cancel load data');
+        isCancelled = true;
+      }
     }, []);
   
     return (

@@ -8,6 +8,8 @@ const SmcCommunity = () => {
     const [homeData, setHomeData] = useState({});
     
     useEffect(()=>{
+      document.title = "SMC | Community";
+      
       (async function(){
         try {
           const {data} = await axios.get("http://localhost:3500/items");

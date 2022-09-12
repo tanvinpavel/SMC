@@ -12,6 +12,8 @@ const VideoTutorial = () => {
     const [homeData, setHomeData] = useState({});
     
     useEffect(()=>{
+      document.title = "SMC | Tutorial Video";
+      
       (async function(){
         try {
           const {data} = await axios.get("http://localhost:3500/items");

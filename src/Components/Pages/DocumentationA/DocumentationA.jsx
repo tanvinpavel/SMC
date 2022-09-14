@@ -7,6 +7,7 @@ const DocumentationA = () => {
     const [homeData, setHomeData] = useState({});
     
     useEffect(()=>{
+      document.title = "SMC | Documentation";
       (async function(){
         try {
           const {data} = await axios.get("http://localhost:3500/items");

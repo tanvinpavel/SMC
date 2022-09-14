@@ -9,6 +9,8 @@ const SetupEnvironment = () => {
     const [homeData, setHomeData] = useState({});
     
     useEffect(()=>{
+      document.title = "SMC | Set Environment";
+      
       (async function(){
         try {
           const {data} = await axios.get("http://localhost:3500/items");

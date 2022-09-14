@@ -10,6 +10,8 @@ function OurApi() {
   const [homeData, setHomeData] = useState({});
     
     useEffect(()=>{
+      document.title = "SMC | API";
+      
       (async function(){
         try {
           const {data} = await axios.get("http://localhost:3500/items");

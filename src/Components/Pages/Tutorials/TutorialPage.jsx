@@ -10,6 +10,8 @@ function TutorialPage() {
   const [homeData, setHomeData] = useState({});
     
     useEffect(()=>{
+      document.title = "SMC | Tutorial";
+      
       (async function(){
         try {
           const {data} = await axios.get("http://localhost:3500/items");
@@ -20,6 +22,7 @@ function TutorialPage() {
         }
       })()
     }, []);
+    
   return (
     <>
       <Header headerData={homeData?.menu_item || []}/>

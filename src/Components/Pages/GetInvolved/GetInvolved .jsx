@@ -9,6 +9,8 @@ const GetInvolved  = () => {
     const [homeData, setHomeData] = useState({});
     
     useEffect(()=>{
+      document.title = "SMC | Get Involved";
+      
       (async function(){
         try {
           const {data} = await axios.get("http://localhost:3500/items");

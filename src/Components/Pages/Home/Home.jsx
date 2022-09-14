@@ -10,10 +10,11 @@ const Home = () => {
     const [homeData, setHomeData] = useState({});
     
     useEffect(()=>{
+      document.title = "SMC | Home";
+      
       (async function(){
         try {
           const {data} = await axios.get("http://localhost:3500/items");
-          
           setHomeData(data);
         } catch (error) {
           console.log(error);

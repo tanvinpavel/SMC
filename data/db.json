@@ -33,6 +33,14 @@
       {
         "anchor_Text": "Community",
         "menu_link": "/community"
+      },
+      {
+        "anchor_Text": "Login",
+        "menu_link": "/Login"
+      },
+      {
+        "anchor_Text": "Registration",
+        "menu_link": "/register"
       }
     ],
 

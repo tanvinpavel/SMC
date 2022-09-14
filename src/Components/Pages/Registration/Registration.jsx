@@ -2,9 +2,9 @@ import axios from 'axios';
 import React, { useEffect, useState } from 'react';
 import Header from '../../Layout/Header';
 import Banner from '../../Shared/Banner';
-import LoginForm from './LoginForm/LoginForm';
+import RegistrationForm from './RegistrationForm/RegistrationForm';
 
-const Login = () => {
+const Registration = () => {
     const [homeData, setHomeData] = useState({});
     
     useEffect(()=>{
@@ -24,10 +24,10 @@ const Login = () => {
     return (
         <>
             <Header headerData={homeData?.menu_item || []}/>
-            <Banner type="tutorials"/>
-            <LoginForm/>
+            <Banner type="SMCApis"/>
+            <RegistrationForm/>
         </>
     );
 };
 
-export default Login;
+export default Registration;

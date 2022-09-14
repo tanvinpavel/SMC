@@ -15,7 +15,7 @@ const banner = {
     },
     setupEnvironment: {
         id: 3,
-        title: "Setup Environment ",
+        title: "Setup Environment",
         subTitle: "Guidelines To Getting Started With SMC",
         img: "banner4.png",
     },
@@ -27,7 +27,7 @@ const banner = {
     },
     SmcCommunity: {
         id: 5,
-        title: "SMC Community ",
+        title: "SMC Community",
         subTitle: "Join The Latest SMC Discussions on Forums, Chat Rooms, and Social Media",
         img: "banner6.png",
     },
@@ -39,17 +39,17 @@ const banner = {
     }
 }
 
-const Banner = ({type}) => {
+const Banner = ({ type }) => {
     const imgPath = useRef(`./image/banner/${banner[type].img}`);
     return (
-        <section class="banner banner-common" style={{"background-image": `url(${imgPath.current})`}}>
-            <div class="container">
-                <div class="row align-items-center">
-                    <div class="col-12 col-sm-12 col-lg-12">
-                        <div class="banner-content">
-                            <div class="entry-content">
-                                <h1 class="entry-title" data-aos="slide-up" data-aos-delay="200" data-aos-duration="800" data-aos-once="true">{banner[type].title}</h1>
-                                <p class="entry-subtitle" data-aos="slide-up" data-aos-delay="200" data-aos-duration="800" data-aos-once="true">{banner[type].subTitle}</p>
+        <section className="banner banner-common" style={{ "backgroundImage": `url(${imgPath.current})` }}>
+            <div className="container">
+                <div className="row align-items-center">
+                    <div className="col-12 col-sm-12 col-lg-12">
+                        <div className="banner-content">
+                            <div className="entry-content">
+                                <h1 className="entry-title" data-aos="slide-up" data-aos-delay="200" data-aos-duration="800" data-aos-once="true">{banner[type].title}</h1>
+                                <p className="entry-subtitle" data-aos="slide-up" data-aos-delay="200" data-aos-duration="800" data-aos-once="true">{banner[type].subTitle}</p>
                             </div>
                         </div>
                     </div>

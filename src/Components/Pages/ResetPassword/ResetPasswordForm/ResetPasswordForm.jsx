@@ -27,13 +27,13 @@ const ResetPasswordForm = () => {
     return (
         <div className='container my-5'>
             <div className="row justify-content-center align-items-center">
-                <div className="col-sm-10 col-md-8 col-lg-8">
+                <div className="col-sm-12 col-md-12 col-lg-10">
                     <div className="card my-5">
                         <h5 className="card-header">Reset Password</h5>
-                        <div className="card-body mt-4 mx-4">
+                        <div className="card-body mt-4 mx-lg-4 mx-xl-4 mx-xxl-4">
                             <form method="post" onSubmit={handleSubmit(formDataHandler)} noValidate>
                                 <div className="row mb-3">
-                                    <label htmlFor="input3" className="col-sm-3 col-form-label">
+                                    <label htmlFor="input3" className="col-sm-3 col-md-2 col-form-label text-sm-end">
                                         Email Address:
                                     </label>
                                     <div className="col-sm-9">
@@ -46,11 +46,11 @@ const ResetPasswordForm = () => {
                                         />
                                     </div>
                                     {
-                                        errors?.email && <span className="offset-sm-3 d-block invalid-feedback">{errors.email?.message}</span>
+                                        errors?.email && <span className="d-block invalid-feedback offset-sm-3 offset-md-2">{errors.email?.message}</span>
                                     }
                                 </div>
-                                <div className="ms-2">
-                                    <button type="submit" className="btn btn-primary offset-sm-3">
+                                <div className="ms-sm-2">
+                                    <button type="submit" className="btn btn-sm btn-primary offset-sm-3 offset-md-2">
                                         Send Password Reset Link
                                     </button>
                                 </div>

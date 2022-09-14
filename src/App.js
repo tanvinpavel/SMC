@@ -9,6 +9,9 @@ import OurApi from "./Components/Pages/OurApi/OurApi";
 import TutorialPage from "./Components/Pages/Tutorials/TutorialPage";
 import GetInvolved from "./Components/Pages/GetInvolved/GetInvolved ";
 import Community from "./Components/Pages/Community/Community";
+import Login from "./Components/Pages/Login/Login";
+import Registration from "./Components/Pages/Registration/Registration";
+import ResetPassword from "./Components/Pages/ResetPassword/ResetPassword";
 
 // npx json-server -p 3500 -w data/db.json
 
@@ -26,6 +29,9 @@ function App() {
         <Route path="/our-api" element={<OurApi/>}/>
         <Route path="/get-involved" element={<GetInvolved/>}/>
         <Route path="/community" element={<Community/>}/>
+        <Route path="/login" element={<Login/>}/>
+        <Route path="/register" element={<Registration/>}/>
+        <Route path="/forget-password" element={<ResetPassword/>}/>
       </Route>
     </Routes>
   );

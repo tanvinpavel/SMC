@@ -2,9 +2,9 @@ import axios from 'axios';
 import React, { useEffect, useState } from 'react';
 import Header from '../../Layout/Header';
 import Banner from '../../Shared/Banner';
-import LoginForm from './LoginForm/LoginForm';
+import ResetPasswordForm from './ResetPasswordForm/ResetPasswordForm';
 
-const Login = () => {
+const ResetPassword = () => {
     const [homeData, setHomeData] = useState({});
     
     useEffect(()=>{
@@ -20,14 +20,13 @@ const Login = () => {
         }
       })()
     }, []);
-
     return (
         <>
             <Header headerData={homeData?.menu_item || []}/>
             <Banner type="tutorials"/>
-            <LoginForm/>
+            <ResetPasswordForm/>
         </>
     );
 };
 
-export default Login;
+export default ResetPassword;

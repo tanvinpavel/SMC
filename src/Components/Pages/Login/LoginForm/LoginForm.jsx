@@ -7,7 +7,7 @@ import * as yup from "yup";
 const LoginForm = () => {
     const navigate = useNavigate();
     const [error, setError] = useState(false);
-
+ 
     const schema = yup.object({
         email: yup.string()
             .email("Please Enter A Valid Email Address.")

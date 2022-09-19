@@ -2029,9 +2029,6 @@ body.loaded .wrapper {
 .community-sub-title{
   width: 73%;
 }
-.community-container{
-  width: 76%;
-}
 .community-user-post{
   justify-content: space-between;
 }
@@ -2056,24 +2053,33 @@ body.loaded .wrapper {
   }
 }
 
-@media only screen and (max-width: 390px){
+@media only screen and (max-width: 720px){
   .community-title{
-    font-size: 32px;
-    line-height: 41.66px;
+    width: 100%;
   }
   .community-sub-title{
     width: 100%;
   }
-  .community-container{
-    width: 100%;
+}
+@media only screen and (max-width: 390px){
+  .community-title{
+    font-family: DM Sans;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 42px;
   }
-  .community-container-twittert{
-   width: 100%;
+  .community-sub-title{
+    width: 100%;
+    font-family: DM Sans;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
   }
 }
-
-.community-container-twitter{
-  width: 51%;
+@media only screen and (max-width:772px){
+  .community-container-twitter{
+    width: 100%;
+  }
 }
 .see-all-btn {
   padding: 0;
